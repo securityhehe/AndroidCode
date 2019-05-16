@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.octopus.frame.widget.navigation.top.BottomNavigationViewEx
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:menu="@menu/menu_navigation"
+        />
+    <com.octopus.frame.widget.navigation.bottom.NavigationPagerFragmentContainer
+        android:id="@+id/rcNavigationPagerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rcUnderlineHeight="0dp"
+        app:rcUnderlineColor="#ff00ff"
+        app:rcIndicatorWidth="30dp"
+        app:rcIndicatorHeight="0dp"
+        app:rcIndicatorColor="@color/_f64747"
+        app:rcTabTextSize="16sp"
+        app:rcTabBackground="@color/_f64747"
+        app:rcTabTextSelectedSize="17sp"
+        app:rcTabCheckedBold="true"
+        app:rcTabTextColor="#ff00ff"
+        app:rcTabTextSelectedColor="#00ff00"
+        app:rcDividerWidth="0dp"
+        app:rcTabPaddingLeftRight="0dp"
+        app:rcNavigationHeight="55dp" />
+
+</FrameLayout>

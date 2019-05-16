@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="fllow_color">#ff00ff00</color>
+    <color name="navigation_text_color">#00ffff</color>
+    <color name="home_pagerSlidingTabStrip_text_color">#ff00ff00</color>
+    <color name="_f64747">#f64747</color>
+    <color name="_ffffff">#ffffff</color>
+</resources>

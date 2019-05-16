@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NavigationPagerFragmentContainer">
+         <!-- indicator 指示器属性-->
+        <attr name="rcIndicatorWidth" format="dimension">
+            <enum name="match" value="-2" />
+            <enum name="warp" value="-1" />
+        </attr>
+        <!-- title的高度-->
+        <attr name="rcNavigationHeight" format="dimension"/>
+        <!-- indicator 的高度 -->
+        <attr name="rcIndicatorHeight" format="dimension"/>
+        <attr name="rcIndicatorColor" format="color"/>
+        <!--底部线颜色-->
+        <attr name="rcUnderlineColor" format="color"/>
+        <attr name="rcUnderlineHeight" format="dimension"/>
+        <!--tab之间的分割线-->
+        <attr name="rcDividerColor" format="color"/>
+        <attr name="rcDividerPadding" format="dimension"/>
+        <attr name="rcDividerWidth" format="dimension"/>
+        <!--未选中(文字大小，文字颜色), 选中文字大小和颜色。文字选中是否加粗。-->
+        <attr name="rcTabTextSize" format="dimension"></attr>
+        <attr name="rcTabTextSelectedSize" format="dimension"></attr>
+        <attr name="rcTabTextColor" format="color"></attr>
+        <attr name="rcTabTextSelectedColor" format="color"></attr>
+        <attr name="rcTabCheckedBold" format="boolean"/>
+        <attr name="rcTabBackground" format="reference|color"/>
+        <!-- padding -->
+        <attr name="rcTabPaddingLeftRight" format="dimension"/>
+        <!-- 是否match -->
+        <attr name="rcTabShouldExpand" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavigationView">
+        <attr name="menu" />
+        <attr name="labelVisibilityMode">
+            <enum name="auto" value="-1" />
+            <enum name="selected" value="0" />
+            <enum name="labeled" value="1" />
+            <enum name="unlabeled" value="2" />
+        </attr>
+        <attr name="itemBackground" />
+        <attr name="itemIconSize" format="dimension" />
+        <attr name="itemIconTint" />
+        <attr name="itemTextAppearanceInactive" format="reference" />
+        <attr name="itemTextAppearanceActive" format="reference" />
+        <attr name="itemTextColor" />
+        <attr name="itemHorizontalTranslationEnabled" format="boolean" />
+        <attr name="elevation" />
+    </declare-styleable>
+
+
+</resources>

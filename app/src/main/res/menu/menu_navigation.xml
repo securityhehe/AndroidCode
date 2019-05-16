@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/test4"
+        android:icon="@drawable/view_indicator_bg"
+        android:title="ddddd" />
+    <item
+        android:id="@+id/test3"
+        android:icon="@drawable/view_indicator_bg"
+        android:title="ccccc" />
+    <item
+        android:id="@+id/test2"
+        android:icon="@drawable/view_indicator_bg"
+        android:title="bbbbbb" />
+    <item
+        android:id="@+id/test1"
+        android:icon="@drawable/view_indicator_bg"
+        android:title="aaaaa"
+        />
+</menu>

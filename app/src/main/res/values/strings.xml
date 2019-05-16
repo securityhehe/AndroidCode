@@ -1,0 +1,1597 @@
+<resources>
+    <string name="version_name">1.0.09</string>
+    <string name="umeng_key">5950b0fb99f0c72ec2001222</string>
+    <string name="app_name">LivU</string>
+    <string name="google_plus">Google+</string>
+    <string name="facebook">Facebook</string>
+    <string name="sign_in_failed">%1$s SignIn Failed</string>
+    <string name="sign_in_failed_only">SignIn Failed</string>
+    <string name="cannot_capture_account_info">Can\'t capture account info</string>
+    <string name="sign_up_info">Enter Email Address and password</string>
+    <string name="sign_in_message">Enter Email Address and password</string>
+    <string name="password">Password</string>
+    <!--<string name="confirm">Confirm</string>-->
+    <!--<string name="error_name">Your name contains forbidden characters.</string>-->
+    <string name="error_first_name">Please enter your first name</string>
+    <string name="error_last_name">Please enter your last name</string>
+    <string name="error_country">Please enter your country</string>
+    <string name="capture">Take a photo</string>
+    <string name="album">Choose</string>
+    <string name="image_load_failed">Image load failed please pick other photos</string>
+    <string name="external_storage_permission_explain">If you do not give us external storage permission , JUST GO DIE !!!!WTF!</string>
+    <!-- review to get another  -->
+    <string name="transition_signin_email">signin_email</string>
+    <string name="email_not_exist">Account not existed</string>
+    <string name="request_reset_password_complete">Please check your email and reset your password</string>
+    <!--<string name="network_error">Connection error. Please try again.</string>-->
+    <string name="sign_in_info_error">username or password error</string>
+    <string name="matching">Finding friend for you...</string>
+    <!--<string name="connecting">Connecting...</string>-->
+    <string name="match_history_date_format_full">MMM dd\'th.\' HH:mm</string>
+    <string name="match_history_date_format_simple">HH:mm</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="add_friend_failed_random">So pity</string>
+    <string name="label_history">History</string>
+    <string name="be_added">add you as friend!</string>
+    <string name="cannot_use_emoji">Cannot use emoji now</string>
+    <string name="report_failed">Report Failed</string>
+    <string name="report_dialog_message">To report to us the radical behavior?This could lead to a ban on their accounts.</string>
+    <string name="report_dialog_positive">Report</string>
+    <string name="accept">Accept</string>
+    <string name="friend">Friend</string>
+    <string name="attention">Attention</string>
+    <string name="connected">Connected</string>
+    <string name="permission_not_granted">Permission not granted</string>
+    <string name="hangup">Hangup</string>
+
+    <string name="chat_message_content_call_keep_time">%1$s</string>
+    <string name="from_future">From a day in future,you are time-traveling</string>
+    <string name="dialog_resend_positive">Resend</string>
+    <string name="add_as_friends">%1$s request add you as friend.</string>
+
+    <string name="update_userinfo_failed">Upload user info failed</string>
+    <string name="dialog_change_username_title">UserName</string>
+    <string name="add">Add</string>
+    <string name="hint_chat_input">Your message</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="add_friend_request_received"><![CDATA[<b>%1$s</b> has sent you a friend request]]></string>
+    <string name="about">About</string>
+    <string name="invites_context">By inviting friends, both you and\n the invitee can get  <![CDATA[<b><font color=#FF0000>%1$d</b>]]> conis</string>
+    <string name="invites_message">Try LivU Video Chat. Meet people all over the world.</string>
+    <string name="invites_title">Invite with Facebook</string>
+    <string name="invite">Invite</string>
+    <string name="black_dialog_positive">Add Blacklist</string>
+    <string name="connot_connect_inappbilling_service">Cannot connect to in app billing service</string>
+    <string name="cannot_query_price_from_play_store">Cannot query product price from play store</string>
+    <string name="label_store">Buy</string>
+    <string name="password_change_complete">Password change complete</string>
+    <string name="label_change_password">Change Password</string>
+    <string name="on_sale">On Sale</string>
+    <string name="dialog_score_title">How would you rate LivU</string>
+    <string name="feedback_email">service@livu.me</string>
+    <string name="help_email">help@livu.me</string>
+    <string name="feedback_email_exchange_consult">livechat.service.006@gmail.com</string>
+    <string name="feedback_message">User id : %1$s \n Application version : %2$s \n SDK Version : %3$s \n ---------Please do not delete these messages ------- \n</string>
+    <string name="feedback_title">I have problem</string>
+    <string name="share_message">http://bit.ly/2dnVerI</string>
+
+    <string name="url_terms_of_service">http://www.livu.me/LivU_termsofservice.html</string>
+    <string name="url_privacy_policy">http://www.livu.me/LivU_privacy.html</string>
+
+    <string name="purch_failed">Purchase failed</string>
+    <string name="buy_failed">Buy failed</string>
+    <string name="cannot_purch_item">Cannot purch item</string>
+    <string name="dialog_score_message_rate">Thank you ! Could you give us a nice review?</string>
+    <string name="dialog_score_message_feedback">Your feedback is very important to us</string>
+    <string name="dialog_freezed_title">Freezed</string>
+    <string name="dialog_ohter_device_title">Notify</string>
+    <string name="dialog_freezed_message_timing">Your account is temporary suspended due to violation of Terms of Service \n %1$s</string>
+    <string name="loading">Loading...</string>
+    <string name="dialog_icon_misdeed_title">Misdeed</string>
+    <string name="random_request_add_friend">Friend request sent.</string>
+    <!--<string name="random_add_friend_completed">You are friends now</string>-->
+    <string name="update_message_default">Version Update to %1$s, please update to the newest version in order to use our service.</string>
+    <string name="dialog_update_title">Version Update</string>
+    <string name="dialog_update_confirm">Update now</string>
+    <string name="already_install_newest_version">Already installed lastest version</string>
+
+
+    <string name="language_all">All Language</string>
+    <string name="language_zh">Chinese</string>
+    <string name="language_en">English</string>
+    <string name="language_fr">French</string>
+    <string name="language_ja">Japanese</string>
+    <string name="language_de">German</string>
+    <string name="language_es">Spanish</string>
+    <string name="language_ar">Arabic</string>
+    <string name="language_ur">Hindustani</string>
+    <string name="language_in">Bahasa Indonesia</string>
+    <string name="language_bn">Bengali</string>
+    <string name="language_pt">Portuguese</string>
+    <string name="language_nl">Dutch</string>
+    <string name="language_ko">Korean</string>
+    <string name="language_da">Danish</string>
+    <string name="language_fi">Finnish</string>
+    <string name="language_nb">Norsk bokmal</string>
+    <string name="language_sv">Swedish</string>
+    <string name="language_pl">Polish</string>
+    <string name="language_tr">Turkish</string>
+    <string name="language_uk">Ukrainian</string>
+    <string name="language_hr">Croatian</string>
+    <string name="language_cs">Czech</string>
+    <string name="language_el">Greek</string>
+    <string name="language_iw">Hebrew</string>
+    <string name="language_th">Thai</string>
+    <string name="language_ms">Malay</string>
+    <string name="language_ca">Catalan</string>
+    <string name="language_hu">Hungarian</string>
+    <string name="language_vi">Vietnamese</string>
+    <string name="language_hi">Hindi</string>
+    <string name="language_it">Italian</string>
+    <string name="language_is">Icelandic</string>
+    <string name="language_ru">Russian</string>
+
+
+    <!-- create by excel -->
+
+    <string name="account_guide_terms_of_use">By using LivU，you agree to the <![CDATA[<b><font color=#78420D>Terms of service</b>]]></string>
+    <string name="account_guide_message_1">Meet people around the World</string>
+    <string name="account_guide_message_2">Free Video Calls and Texts</string>
+    <string name="account_guide_message_3">Chat with Fun Stickers</string>
+    <string name="facebook_sign_in">Sign in with Facebook</string>
+    <string name="sign_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_password">Create Password</string>
+    <string name="forget_password_message">Enter your email address above, and we\'ll send you a link to reset your password.</string>
+    <string name="forget_password">Forgot</string>
+    <string name="error_email_signin">Account not existed</string>
+    <string name="error_password_signin">The password is invalid</string>
+    <string name="error_email">Please enter the right email</string>
+    <string name="email_exist">This email has been used</string>
+    <string name="next">Next</string>
+    <string name="next_people">Next</string>
+    <string name="error_password">6~16 characters and numbers</string>
+    <string name="image_souce_pick_title">Please upload your real photo</string>
+    <!--<string name="hint_name">Nick Name</string>-->
+    <!--<string name="hint_birthday">Birthday</string>-->
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="match_both">Both</string>
+    <string name="swipe_start_match">Swipe left to start</string>
+    <string name="user_left">This user has just left</string>
+    <string name="agree">Agree</string>
+    <string name="random_add_friend_completed_chating">Congratulations! You are friends now.</string>
+    <string name="random_add_friend_request_chating">You\'ve received friend request</string>
+    <string name="need_more_gold">Oops, you need more coins</string>
+    <string name="emoji_send_failed">Sticker sent failed! Please try it again!</string>
+
+    <string name="random_add_friend_message">Do you want to continually chat and add this user as friend? This conversation will be ended if you don\'t respond</string>
+    <string name="waiting_response">Waiting for response…</string>
+    <string name="add_friend_complete_random">Congratulations</string>
+    <string name="delete">Delete</string>
+    <!--<string name="cancel">Cancel</string>-->
+    <string name="message">Message</string>
+    <string name="yestoday">Yesterday</string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="answer">Answer</string>
+    <string name="call_end">Call ended</string>
+    <string name="call_be_hangup">This call is cancelled by caller</string>
+    <string name="user_unavailable">This user is unavailable now</string>
+    <string name="toast_video_call_need_add_friend">You can start making video call once you are friends</string>
+    <string name="toast_video_call_need_answer_friend">You can start making video call when you accpet the friend request</string>
+    <string name="dialog_clear_history_message">You will lost your chatting history</string>
+    <!--<string name="add_friend_pay_attention_message">Spend %1$d coins and start chatting.  He/She is waiting.</string>-->
+    <string name="ok">OK</string>
+    <string name="dialog_add_friend_gold_not_enough_message">Insufficient balance. Add friends and chat with them.It will cost %1$d coins</string>
+    <string name="pay">Buy</string>
+    <string name="my_coin">My coins</string>
+    <string name="chat_message_content_call_hangup">Hang up</string>
+    <string name="chat_message_content_call_missed">Miss call</string>
+    <string name="chat_message_content_call_be_hangup">This user is busy</string>
+    <string name="chat_message_content_call_be_missed">This user is busy</string>
+    <string name="friends">Friends</string>
+    <string name="me">Me</string>
+    <string name="invite_friends">Share</string>
+    <string name="comments">Rate Us</string>
+    <string name="feedback">Feedback</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="account">Account</string>
+    <string name="change_password">Change Password</string>
+    <string name="hint_old_password">Old Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="save">Save</string>
+    <string name="logout">Log Out</string>
+    <string name="age">Age</string>
+    <string name="country">Country</string>
+    <!--<string name="language">Language</string>-->
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="version">Version</string>
+    <string name="report">Report</string>
+    <string name="addFriend">Add Friend</string>
+    <string name="block">Block</string>
+    <!--<string name="black_dialog_message">You won’t receive others\' message after you block them. You can unblock them in blacklist.</string>-->
+    <!--<string name="add_blocklist_complete">%1$s is blocked by you, you can unblock in blacklist.</string>-->
+    <string name="dialog_report_message">Report this user?</string>
+    <!--<string name="report_completed">Thanks for your report, we will look into it ASAP.</string>-->
+    <string name="explore">Explore</string>
+    <string name="history">History</string>
+    <string name="dialog_ohter_device_message">Your account was logged in another device, if it was not you, please change your passwords</string>
+    <string name="dialog_freezed_message">Your account is temporary suspended due to violation of Terms of Service</string>
+    <string name="dialog_icon_misdeed_message">Please use real photo as your profile picture. People love real photo!</string>
+    <string name="dialog_background_misdeed_message">Your background photo was removed because it does not meet the requirements. Please upload a real photo.</string>
+    <string name="no_match_history">No matching history. Keep trying</string>
+    <string name="no_message_data">No message ,Click the button to start making new friends.</string>
+    <string name="no_message">No Message</string>
+    <string name="no_friends">Oops, you don\'t have friends yet, keep trying!</string>
+    <string name="dialog_score_message">Tap the number of stars you\'d give us on scale from 1-5</string>
+    <string name="not_now">Not Now</string>
+    <string name="rate">Rate</string>
+    <string name="no_activited_connection">No network connection!</string>
+    <string name="network_connected">Network connected !</string>
+    <string name="must_over_seventeen">Must over 14 years old.</string>
+    <string name="age_too_young">LivU is only available for ages 18 and older</string>
+    <string name="im_service_not_connected">Server connection error，Please try later.</string>
+
+    <string name="update_user_info_failed">Failed to get information,Please log in again.</string>
+    <string name="copy">Copy</string>
+    <!--<string name="dialog_request_ignore_battery_optimize_message">Applications are not allowed to use battery optimization to ensure that messages from other users are received properly in the background.</string>-->
+    <string name="dialog_logout_message">You will not receive any message.Are you sure to log out？</string>
+    <string name="wake_up_message_1">Someone just viewed your profile. Find out who is interested in you!</string>
+    <string name="wake_up_message_2">It\'s been 2 days since your last login. 4 people viewed your profile.</string>
+    <string name="wake_up_message_3">It\'s been 3 days since your last login. You had 8 profile visitors.</string>
+    <string name="active">active</string>
+    <string name="discover">Discover</string>
+
+    <string name="max_language_count">Max five languages you can selected.</string>
+
+    <!-- <![CDATA[<b><font color=#78420D>Terms of service</b>]]>-->
+    <string name="dialog_match_price_message">After turning on Gender Filter,it costs <![CDATA[<b><font color=#FF9600>%1$d coins</b>]]> for a match.</string>
+    <string name="dialog_match_price_positive">Got it</string>
+    <string name="dialog_match_free_message">Gender Filter is free to use.</string>
+    <string name="dialog_match_gold_not_enough_message">Insufficient balance,It will cost <![CDATA[<b><font color=#FF9600>%1$d coins</b>]]> for a match.</string>
+    <string name="dialog_match_gold_not_enough_positive">Yes</string>
+    <string name="dialog_match_gold_not_enough_negative">Cancel</string>
+    <string name="dialog_gender_confirm_message">Gender selection cannot be reset. Please make sure it is correct.</string>
+    <string name="stars">%1$dstars</string>
+    <string name="star_add_coins">+%1$dcoins</string>
+    <string name="has_got_gift">Has got comment gift</string>
+    <string name="dialog_match_gold_not_enough_title">Top Up</string>
+    <string name="dialog_match_price_title">Gender Filter</string>
+    <string name="notification">Notification</string>
+    <string name="back">Back</string>
+    <string name="star_4">4 Stars</string>
+    <string name="star_5">5 Stars</string>
+    <string name="rc_product_discount">%1$d%% OFF</string>
+    <string name="dialog_score_check_title">Like LivU?</string>
+    <string name="dialog_score_check_message">Please visit the store to comment on us.</string>
+    <string name="unsupport_image_format">This format image is not supported</string>
+    <string name="image_save_failed">Save failed</string>
+    <string name="buy_coin">Buy Coins</string>
+
+    <string name="hint_signin_password">Password</string>
+    <string name="share_image_url">http://livechat.rcplatformhk.com/video-chat/share/share1.jpg?id=%1$s</string>
+    <string name="share_gift">+%1$d</string>
+    <string name="share_title">Meet people around the World</string>
+    <string name="play_store_address">https://play.google.com/store/apps/details?id=com.videochat.livu</string>
+    <string name="share">Share</string>
+    <string name="freeze_time">\n<![CDATA[<b><font color=#78420D>%1$s</b>]]></string>
+    <string name="close">Close</string>
+
+    <!--version upgrade-->
+
+    <!--report-->
+    <string name="report_dialog_title">Inappropriate Behavior</string>
+    <string name="report_dialog_gender_error">Fake gender</string>
+
+    <!--freeze account-->
+    <string name="gender_freeze_dialog_message">Since you have been reported for fake gender by several users, you have been restricted for use by system. If you want to make a complaint, please contact us.</string>
+    <string name="freeze_dialog_message">Since you have been reported by several users, you have been restricted for use by system. If you want to make a complaint, please contact us.</string>
+    <!--<string name="complaint">complaint</string>-->
+
+    <!--appeal-->Click the button and ask to add him to your buddy
+    <string name="appeal_title">banned_appeal</string>
+    <string name="appeal_email">livechat.service008@gmail.com</string>
+    <string name="report_behavior">Inappropriate Behavior</string>
+    <!--<string name="report_pornography">Pornography</string>-->
+    <!--<string name="report_others">Others</string>-->
+    <!--<string name="report_gender">Fake gender</string>-->
+    <string name="registe_too_much">You have registered multiple accounts. Registration has been limited.</string>
+    <!-- permissions-->
+    <string name="permission_location_title">Location</string>
+    <string name="permission_location_desc">Enable location service to video chat with people nearby and to discover more friends from different countries. Please allow LivU to get your location data.</string>
+    <!--<string name="permission_request_allow">ALLOW</string>-->
+    <string name="permission_request_exit">EXIT</string>
+    <string name="permission_pickimage_title">Profile</string>
+    <string name="permission_pickimage_desc">Create a personal profile to let more people know you and like you. Please allow LivU to access your camera and external storage to upload pictures.</string>
+    <string name="permission_micphone_title">Microphone</string>
+    <string name="permission_micphone_desc">Video chat requests the access to microphone. Please allow LivU to access your microphone to chat with new friends!</string>
+    <string name="permission_chat_title">Grant access</string>
+    <string name="permission_chat_desc">Here are a lot of new friends are waiting for you. Please change the access permissions in your device\'s app setting. Please allow LivU to access external storage, camera, and microphone in order to start a video chat.</string>
+
+    <string name="permission_video_chat_desc">You need to turn on your camera and mic for video chat,please turn it on.</string>
+    <string name="permission_video_chat_title">You need to turn on your camera and mic for video chat,please turn it on.</string>
+    <string name="permission_storage_title">Storage</string>
+    <string name="permission_phone_title">permission_phone_desc</string>
+    <string name="permission_storage_desc">Uploading photo requires access external storage, please enable it.</string>
+    <string name="permission_phone_desc">permission_phone_desc</string>
+
+
+    <string name="permission_request_settings">SETTINGS</string>
+    <string name="exchange_detail">Detail</string>
+    <string name="hint_exchange_email">E-mail address</string>
+    <string name="hint_exchange_country">Country</string>
+
+    <string name="chat_message_content_sent_gift">Sent %1$s a gift.</string>
+    <string name="chat_message_content_received_gift">%1$s sent a gift to you</string>
+
+    <string name="dialog_info_check_title">Please check the information</string>
+    <string name="dialog_info_check_message">It will be redeemed for you within3-15days of the reclew</string>
+    <string name="tip_email">Email:</string>
+    <string name="tip_country">Country:</string>
+    <string name="dialog_exchange_check_positive">Confirm</string>
+    <string name="add_order_complete">exchange order complete</string>
+
+
+    <string name="permission_all_desc">Here are a lot of new friends are waiting for you. Please change the access permissions in your device\'s app setting. Please allow LivU to access external storage, camera, and microphone in order to start a video chat</string>
+    <string name="permission_all_title">Here are a lot of new friends are waiting for you. Please change the access permissions in your device\'s app setting. Please allow LivU to access external storage, camera, and microphone in order to start a video chat</string>
+    <string name="gift_message_content">[GIFT]</string>
+
+    <string name="purchase_verify_failed">purchase verify failed , we will retry it after a while</string>
+
+    <string name="gold_added">%1$d coins got!</string>
+    <string name="chat_message_content_cannot_analyzed">Current version cannot support this message, please update to latest version</string>
+    <string name="refresh">Refresh</string>
+    <string name="lable_country">Country</string>
+
+
+    <!--new version -->
+
+    <string name="video_gift_guide">Send gifts to your affections and start the conversation right!</string>
+    <string name="purchase">Purchase</string>
+    <string name="super_bonus_mesage">First-time bonus: Get an extra %1$d coins with %2$s</string>
+    <!--<string name="store_menu_gold_not_enough_message">Coins are insufficient, please refill.</string>-->
+    <string name="gift_send_failed">Failed to send the gift</string>
+    <string name="text_gain_tip">Gains</string>
+    <string name="text_gifts_tip">Gift</string>
+    <string name="list_tip">Detail</string>
+    <string name="top_tip">Top</string>
+    <string name="contribute_tip">Contribution</string>
+    <string name="lable_diamond">Diamond</string>
+    <string name="sent_you_gifts">Sent you %1$d gifts</string>
+    <string name="lable_my_gifts">My Gifts</string>
+    <string name="received_gift_tip">Received %1$d</string>
+    <string name="my_diamonds">My Diamonds</string>
+    <string name="my_order">My Order</string>
+    <string name="cost_diamond">Cost</string>
+    <string name="amazon_gift_card">Amazon Gift Card</string>
+    <string name="paypal_gift_card">PayPal Cash Out</string>
+    <string name="text_redeem_info">Redeem Info</string>
+    <string name="commodity_detail">Detail</string>
+    <string name="hint_exchange_currency">Currency</string>
+    <string name="currency_canada">Canada / Canadian Dollar</string>
+    <string name="currency_china">China / RMB</string>
+    <string name="currency_france">France / Euro</string>
+    <string name="currency_germany">Germany / Euro</string>
+    <string name="currency_japan">Japan / Yen</string>
+    <string name="currency_italy">Italy / Euro</string>
+    <string name="currency_spain">Spain / Euro</string>
+    <string name="currency_uk">United Kingdom / British pound</string>
+    <string name="currency_usa">Untied States of America / USD</string>
+    <string name="text_redeem">Redeem</string>
+    <string name="hint_exchange_first_name">First Name</string>
+    <string name="hint_exchange_last_name">Last Name</string>
+    <string name="check_email">Please enter the right email</string>
+    <string name="check_first_name">Please enter your first name</string>
+    <string name="check_last_name">Please fill in your last name</string>
+    <string name="check_last_counrtry">Please fill in your country of residences</string>
+    <string name="check_currency">Please choose your currency</string>
+    <string name="check_diamond_not_enough">Insufficient diamonds</string>
+    <string name="check_your_info">Please verify your information</string>
+    <string name="tip_order_process_date">After we review the application, we will process your requirement within 3~15 days</string>
+    <string name="tip_submitted_success">Submitted successfully</string>
+    <string name="tip_diamond_not_enough">Your diamonds are Insufficient</string>
+    <string name="status_submitted">Submitted</string>
+    <string name="status_review">Review</string>
+    <string name="status_compeleted">Completed</string>
+    <string name="status_closed">Denied</string>
+    <string name="text_order_date">Ordered Date</string>
+    <string name="text_inquiry">Inquiry</string>
+    <string name="item_gift_guide_message">Send gifts is the best approach to attract your affections</string>
+    <string name="send_gift">Send Gift</string>
+    <string name="how_to_obtain">How to received diamonds</string>
+    <string name="diamond_educate_msg_1">Chatting can receive gifts</string>
+    <string name="diamond_educate_msg_2">Gifts can be used to exchange diamonds</string>
+    <string name="diamond_educate_msg_3">Diamonds can be used to exchange practical benefit</string>
+    <string name="coins_recharge_complete_delay_message">%1$d coins you purchased have been refilled in your account. Sorry for the delay</string>
+    <string name="diamond_rank_title">%1$dH received the most diamonds</string>
+    <string name="playstore_disable">Unable to access Google services，so you cannot use store.</string>
+    <string name="old_version_gift_message">send a gift, please update to newest verson, and check your gift in gift list.</string>
+    <string name="no_order">No Order</string>
+    <string name="serial_num">#%d</string>
+    <string name="cannot_send_empty_message">Can not send empty message</string>
+    <string name="purchase_attention_message">For questions,please contact:\r\nservice@livu.me</string>
+    <string name="cannot_create_new_file">Can not create new file,please check your sd card</string>
+
+    <string name="btn_get">Get</string>
+    <string name="active_free_coins">Free coins</string>
+    <string name="video_ad_get_coins">Watch video to get free coins</string>
+    <string name="obtain_coins_at_least">(at least 1 coin)</string>
+    <string name="quit_match">Quit</string>
+    <string name="Watch_video">Watch Video</string>
+    <string name="dialog_title_reward">REWARD</string>
+    <string name="dialog_reward_chances_tip">%1$s chances left today</string>
+    <string name="reward_chances_dialog_ok">OK</string>
+    <string name="text_account_more_option">MORE OPTION</string>
+    <string name="text_account_tip_or">OR</string>
+
+    <string name="sign_up_with_email">Sign up with Email</string>
+    <string name="sign_in_with_email">Sign in with Email</string>
+    <string name="photo">Photo</string>
+    <string name="text_newbie_bonus">Only For Newbie</string>
+    <string name="tip_coins_sum">You have %1$s Coins </string>
+    <string name="tip_insufficient_balance">Insufficient balance</string>
+    <string name="btn_get_it">Purchase</string>
+    <string name="tip_question_buy_coins">For questions, please contact:\n service@livu.me</string>
+    <string name="tip_question_buy_coins_email">service@livu.me</string>
+    <string name="account_guide_terms_of_use1">We don\'t post anything to Facebook</string>
+    <string name="account_guide_terms_of_use2">By using LivU, you agree to the <a href='http://www.livu.me/LivU_termsofservice.html'>Terms of Use</a> And <a href='http://www.livu.me/LivU_privacy.html'>Privacy Policy</a></string>
+    <string name="tip_coins_sum_test">You have %1$d Coins </string>
+    <string name="tip_coins_sum_num_part"><![CDATA[<big><b><font color=#FF7E00>%1$d</b></big>]]></string>
+    <string name="text_home_cons_number"><![CDATA[<b><font color=#FFF000>%1$d</b>]]></string>
+    <string name="dialog_reward_chances_num_part"><![CDATA[<b><font color=#FEDA00>%1$d </b>]]></string>
+
+
+    // version 3.0
+    <string name="match_gender_both">Male &#038; Female</string>
+    <string name="title_history">history</string>
+    <string name="message_send_gift_add_friend">Send a rose to show your interest before you talk to %1$s</string>
+    <string name="tip_newbie">Newbie</string>
+    <string name="video_call_price_attention">%1$d free video calls per hours.  %2$d coins / additional call</string>
+    <string name="free_chat_use_up">%1$d free chat chances with men has run out today.</string>
+    <string name="message_send_gift_add_friend_video_chat">Send a gift and send a friend request</string>
+    <!--<string name="report_violence">Language violence</string>-->
+    <string name="report_attack">Discrimination</string>
+    <string name="report_scam">Malicious fraud</string>
+
+    <string name="lable_diamonds">Diamonds</string>
+    <string name="lable_top_gifter">Top Gifter</string>
+    <string name="receive_diamonds">receive %1$s</string>
+    <string name="sent_gifter">sent %1$s</string>
+    <string name="receive_diamonds_sum_part"><![CDATA[<b><font color=#3898FF>%1$s</b>]]></string>
+    <string name="sent_gifter_sum_part"><![CDATA[<b><font color=#FFAB26>%1$s</b>]]></string>
+
+    <string name="go_on">Fortsetzen</string>
+    <string name="purchase_failed">Kauf fehlgeschlagen, bitte versuche es erneut</string>
+
+
+    <!-- Liu add -->
+    <string name="twitter">Twitter</string>
+    <string name="vk">VK</string>
+    <string name="introduce">Personal profile</string>
+    <string name="verified">Verified</string>
+    <string name="coins">Coins</string>
+    <string name="diamonds">Diamonds</string>
+    <string name="gifts">Gifts</string>
+
+    <string name="verify">Verify</string>
+    <string name="profile_photo_title">Profile Photo</string>
+    <string name="self_introduction_title">Self introduction</string>
+
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="profile_introduce_normal">I am using LivU to meet new friends : )</string>
+    <string name="choose_your_gender">Choose your gender</string>
+    <string name="hint_self_introduction">Tell others about yourself</string>
+    <string name="image_delete_failed">Delete failed</string>
+    <!--<string name="account_push_switch">Messages notifications</string>-->
+
+    <string name="tip_empty_history">No history\nStart match and talk to someone new </string>
+    <string name="tip_empty_active">Adjust your filter to meet more friends</string>
+    <!--<string name="tip_language_filter">Match with members in this preferred language first</string>-->
+    <string name="video_call_gold_not_enough">Insufficient balance %1$d free video calls per hours. %2$d coins / additional call</string>
+    <string name="chat_message_content_image">IMAGE</string>
+    <string name="dialog_message_freezed_with_reason">You have been reported by other users about \"%2$s\" behavior. LivU has confirmed that we will suspend your account %1$s</string>
+    <string name="video_ad_show_title">Free Coins</string>
+    <string name="tab_1">Discover</string>
+    <string name="tab_2">Hot</string>
+    <string name="tab_3">Chat</string>
+    <string name="tab_4">Setting</string>
+    <string name="report_completed_scam">Please send us a screenshot of the fraudulent information in \"Setting-Feedback\" and we will process it as soon as possible</string>
+    <string name="dialog_message_freezed_with_scam">You have been reported by other users about \"Malicious fraud\" behavio.LivU has confirmed that we will suspend your diamond exchange service and suspend your account %1$s</string>
+    <string name="random_time_up_attention">Video chat will end in %1$ss.Add friend and continually chat</string>
+    <string name="message_send_gift_add_friend_hot">%1$s is a hot member.Send a Blue Rose to show your interest before you talk to %2$s</string>
+    <string name="send_image_capture">Camera</string>
+    <string name="send_image_album">Choose from album</string>
+    <string name="hint_search">Search</string>
+    <string name="dialog_tiltle_filter">Filter</string>
+
+    <string name="cash_out_tip">You need to verify  at least one social account，before you cash out</string>
+
+    <!--<string name="tip_gender_change">You have been reported as "Fake gender" behavior by another user, we have changed your gender to male.</string>-->
+    <!--<string name="tip_freeze_timing">You have been reported as "Pornographic"  behavior by another user,   We will suspend your account within <![CDATA[<b><font color=#FF4360>%1$s</b>]]>. Please pay attention.</string>-->
+    <string name="tip_add_friend_video_page">Meet someone awesome? Don\'t forget to send a friend request!</string>
+    <string name="dialog_add_friend_cost">Add friends and get unlimited chat will cost only %1$d coins.</string>
+    <string name="filter_dialog_gender">Gender</string>
+    <!--<string name="filter_dialog_languages">Preferences Language</string>-->
+    <string name="dialog_filter_location">Location</string>
+    <string name="message_delete_history">Are you sure you want to delete this record?</string>
+    <string name="splash_skip_ad">Skip</string>
+    <string name="tip_adjust_filter">Adjust your filter to meet more friends</string>
+    <string name="free">Free</string>
+
+    <string name="edit">Edit</string>
+    <string name="account_guide_terms_of_use1_new">We will not post anything to your social account</string>
+    <string name="image_message_not_support">Receive a picture message, upgrade to the latest version of the view.</string>
+
+    <!-- new -->
+    <!--<string name="qr_scan_activity_title">Block List</string>-->
+    <!--<string name="qr_confirm_activity_title">Scan Code</string>-->
+    <!--<string name="qr_login_confirm_hint">Confirm your account in the web</string>-->
+
+    <!--<string name="qr_scan_hint">Scan qutomatically within the frame</string>-->
+
+    <string name="faq">FAQ</string>
+    <!--<string name="delete_acount">Delete Account</string>-->
+
+    <!-- new add -->
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="login_with_phone">Login With Phone</string>
+    <string name="finish">Finish</string>
+    <string name="login_with_phone_info">Enter Your Mobile Number</string>
+
+    <string name="facebook_app_id">1635849179780756</string>
+    <string name="account_kit_client_token">f815758222f4af1213a0c53f7ebd5ced</string>
+
+
+    <!--<string name="taking_screen_shot">Taking a screenshot</string>-->
+
+    <string name="livu_team">LivU Team</string>
+    <!--<string name="tell_delete_reason">We are sorry to see you go,Please tell us your reason for leaving</string>-->
+    <!--<string name="reason1">I don\'t know how to use LivU</string>-->
+    <!--<string name="reason2">I can\'t match the girl</string>-->
+    <!--<string name="reason3">I haven\'t found anyone interesting on LivU fdsfs fsafasf fsf</string>-->
+    <!--<string name="reason4">I worry about privacy issues</string>-->
+    <!--<string name="reason5">I receive too many notifications</string>-->
+    <!--<string name="reason6">Pornographic behavior</string>-->
+    <string name="reason_other">other</string>
+
+    <!--<string name="really_leave_title">Are you sure you want to leave?</string>-->
+    <!--<string name="really_leave_subtitle">We are still growing and your choice to stay with LivU is what encourages and supports us the most.</string>-->
+    <!--<string name="delete_consequence_title">After deleting your account</string>-->
+    <!--<string name="delete_consequence_subtitle1">• Your friends won\'t be able to contact you</string>-->
+    <!--<string name="delete_consequence_subtitle2">• Your contacts will be deleted</string>-->
+    <!--<string name="delete_consequence_subtitle3">• Your user profile information will be deleted</string>-->
+    <!--<string name="delete_consequence_subtitle4">• Your user profile information will be deleted</string>-->
+    <!--<string name="delete_consequence_subtitle5">• Your user profile information will be deleted</string>-->
+    <!--<string name="understand">I understand</string>-->
+    <!--<string name="delete_alert_title">You won\'t be recover your account after deleting account</string>-->
+    <!--<string name="input_hint">input you reason</string>-->
+    <!--<string name="remote_no_face_message">Dose %1$s not face the camera,choose to remove the blur effect?</string>-->
+    <!--<string name="hide_blur">Remove</string>-->
+    <!--<string name="local_no_face_message">Show your face to see the other person</string>-->
+
+    <!-- 评分弹窗 -->
+    <!--<string name="rate_rating_title">Would you mind rating LIVU?</string>-->
+    <!--<string name="rate_rating_subtitle">Tap the number of stars you\'d give us on a scale of 1-5.</string>-->
+    <!--<string name="rate_high_score_title">Thanks for your like!</string>-->
+    <!--<string name="rate_hign_score_subtitle">We’d really appreciate if you could give us 5 stars on Google play.</string>-->
+    <!--<string name="rate_low_score_title">Could you tell us how we can improve?</string>-->
+    <!--<string name="rate_low_score_subtitle">Your feedback is very important for us.Wewill make LIVU better with your help.</string>-->
+    <!--<string name="rate_no_rating_title">Like LivU?</string>-->
+    <!--<string name="rate_no_rating_subtitle">We\'d really appreciate if you could give us 5 stars on Google play.</string>-->
+    <!--<string name="rate_rate">Rate</string>-->
+    <!--<string name="rate_not_now">Not Now</string>-->
+    <!--<string name="rate_feed_back">FeedBack</string>-->
+
+    <!--<string name="qr_scan_item_title">Scan QR Code </string>-->
+    <string name="like_us">Like us</string>
+
+    <string name="be_friend_tip">you are friends now</string>
+    <!--<string name="no_pornographic_wraning">All pornography related behavior is not allowed in LivU, including dressing inappropriately. Once found, your account will be banned. Let\'s together make LivU a great video platform.</string>-->
+    <!--<string name="video_use_skip_tip">Swipe down to skip</string>-->
+    <string name="video_take_shot_tip">Taking a screenshot</string>
+    <string name="video_show_face_tip">Show your face to see the other person</string>
+
+    <!--<string name="user_id_copyed">LiveU ID copied</string>-->
+
+    <!--<string name="video_notification">Video Notifcions</string>-->
+    <!--<string name="blur_notification">Blur Notifcions</string>-->
+    <!--<string name="beauty_notification">Beauty Notification</string>-->
+    <string name="comment">Comment</string>
+    <!--<string name="permission_denied_normal">Sorry,LivU needs photo,video and audio persmions for normal use.</string>-->
+    <!--<string name="permission_denied_forever">Please give LivU needed persmission for normal use in system settings.</string>-->
+    <!--<string name="open_settings">OPEN SETTING</string>-->
+
+
+    <!--<string name="match_loop_tip0">Pornography is NOT allowed!</string>-->
+    <!--<string name="match_loop_tip1">Laughter is the universal language for a good time</string>-->
+    <!--<string name="match_loop_tip2">Using video filters will help you find the right person</string>-->
+    <!--<string name="match_loop_tip3">Want a new match? just swipe down</string>-->
+    <!--<string name="match_loop_tip4">We will suspend service for all pornographic users!</string>-->
+    <!--<string name="match_loop_tip5">Once missed, never again, add friends at once</string>-->
+    <!--<string name="match_loop_tip6">The Blur Feature protects you from yucky content</string>-->
+    <!--<string name="match_loop_tip7">If you discover any unsightly behavior, report it with no mercy!</string>-->
+    <!--<string name="match_loop_tip8">Recommend your friends to use LivU together.</string>-->
+
+    <!--<string name="welcome_content">Hello %1$s. Welcome to LivU. You can video chat with cool people from all over the world.</string>-->
+    <!--<string name="recharge_success"> %1$d coins which you purchased to your account, is succeed.</string>-->
+
+    <!--<string name="start_match">Start Match</string>-->
+
+    <!--<string name="profile_update_age_notice">Your birthday can be modified only one time. Please make sure it\'s correct.</string>-->
+    <!--<string name="discard">Discard</string>-->
+    <!--<string name="profile_finish_confirm">Are you sure you want to discard?</string>-->
+    <!--<string name="match_disconnected_tip">%1$s left the chat.</string>-->
+    <!--<string name="match_rate_tip">Please rate the match.</string>-->
+    <!--<string name="age_changed_tip">You\'ve changed your birthday.</string>-->
+
+    <!--<string name="report_title_warn">Warning</string>-->
+
+    <!--<string name="tap_to_start">Tap to start</string>-->
+    <!--<string name="friend_request_sent">Friend request sent</string>-->
+    <!--<string name="friend_request_received">You\'ve recieved friend request</string>-->
+
+    <!--<string name="match_connecting_tip0">%1$s years old person from %2$s matched with you</string>-->
+    <!--<string name="match_connecting_tip1">%1$s years old girl from %2$s matched with you</string>-->
+    <!--<string name="match_connecting_tip2">%1$s years old woman from %2$s matched with you</string>-->
+    <!--<string name="match_connecting_tip3">%1$s years old boy from %2$s matched with you</string>-->
+    <!--<string name="match_connecting_tip4">%1$s years old man from %2$s matched with you</string>-->
+
+    <!--<string name="contect_us">Contect Us</string>-->
+    <!--<string name="profile_report_tip">Report this user?</string>-->
+
+
+    <string name="scan_shortcut_short_label">Scan QR Code</string>
+    <string name="scan_shortcut_long_label">Scan QR Code</string>
+    <string name="scan_disabled_message">Scan QR Code</string>
+    <string name="match_guide">Tap to start</string>
+
+    <string name="invites_with_fb">Invite with Facebook</string>
+    <string name="invites_with_phone">Invite with Phone</string>
+    <string name="error_name">Your name contains forbidden characters.</string>
+    <string name="tap_to_start">Tap to start</string>
+    <string name="filter_dialog_languages">Preferences Language</string>
+    <string name="tip_language_filter">Match with members in this preferred language first</string>
+    <string name="match_loop_tip0">Inappropriate Behavior is NOT ALLOWED.</string>
+    <string name="match_loop_tip1">Laughter is the universal language for a good time</string>
+    <string name="match_loop_tip2">Using video filters will help you find the right person</string>
+    <string name="match_loop_tip3">Want a new match? just swipe down</string>
+    <string name="match_loop_tip4">Users who behave inappropriately will be suspended.</string>
+    <string name="match_loop_tip5">Once missed, never again, add friends at once</string>
+    <string name="match_loop_tip6">The Blur Feature protects you from yucky content</string>
+    <string name="match_loop_tip7">If you discover any inappropriate behavior, report it with no mercy!</string>
+    <string name="match_loop_tip8">Recommend your friends to use LivU together.</string>
+    <string name="match_connecting_tip0">%1$s years old person from %2$s matched with you</string>
+    <string name="match_connecting_tip1">%1$s years old girl from %2$s matched with you</string>
+    <string name="match_connecting_tip2">%1$s years old woman from %2$s matched with you</string>
+    <string name="match_connecting_tip3">%1$s years old boy from %2$s matched with you</string>
+    <string name="match_connecting_tip4">%1$s years old man from %2$s matched with you</string>
+    <string name="match_disconnected_tip">%1$s left the chat</string>
+    <string name="no_pornographic_wraning">All inappropriate behavior is not allowed in LivU. Once found, your account will be suspended. Let\'s together make LivU a great video platform.</string>
+    <string name="video_use_skip_tip">Swipe left to skip</string>
+    <string name="remote_no_face_messageo">Blur efffect will disappear when %1$s faces the camera</string>
+    <string name="local_no_face_message">Appear in the screen</string>
+    <string name="taking_screen_shot">taking a screenshot</string>
+    <string name="friend_request_sent">Friend request sent</string>
+    <string name="friend_request_received">You\'ve recieved friend request</string>
+    <string name="random_add_friend_completed">Wow! You are friends now</string>
+    <string name="match_rate_tip">Please rate the match</string>
+    <string name="add_friend_pay_attention_message">Spend %1$d coins and start chatting. He/ She is waiting.</string>
+    <string name="hint_name">Nickname</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="language">Language</string>
+    <string name="profile_update_age_notice">Your birthday can be modified only one time. Please make sure it\'s correct.</string>
+    <string name="discard">Discard</string>
+    <string name="profile_finish_confirm">Are you sure you want to discard?</string>
+    <string name="age_changed_tip">You\'ve changed your birthday.</string>
+    <string name="user_id_copyed">LivU ID copied</string>
+    <string name="qr_scan_item_title">Scan QR code</string>
+    <string name="qr_scan_activity_title">Scan QR code</string>
+    <string name="qr_login_confirm_hint">Confirm your account</string>
+    <string name="qr_scan_hint">Align QR Code within the frame to scan</string>
+    <string name="qr_confirm_activity_title">QR Code</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="network_error">Opps, something went wrong with network. Please try again later.</string>
+    <string name="store_menu_gold_not_enough_message">Insufficient balance，Please refill now</string>
+    <string name="account_push_switch">Message Notification</string>
+    <string name="blur_notification">Blur Effect</string>
+    <string name="video_notification">Video Call Notification</string>
+    <string name="beauty_notification">Beauty Effect</string>
+    <string name="tell_delete_reason">Why do you want to delete your account? Please tell us the reason.</string>
+    <string name="reason1">I don\'t know how to use LivU</string>
+    <string name="reason2">I can\'t match girls</string>
+    <string name="reason3">I didn\'t find anyone interesting on LivU</string>
+    <string name="reason4">I\'m worried about privacy issues</string>
+    <string name="reason5">I received too many notifications</string>
+    <string name="reason6">Pornographic behaviors</string>
+    <string name="really_leave_title">Are you sure you want to leave?</string>
+    <string name="really_leave_subtitle">Your choice to stay in LivU is the biggest encouragement and support on our way to growth</string>
+    <string name="delete_consequence_title">After deleting your account</string>
+    <string name="delete_consequence_subtitle1">• Your friends won\'t be able to contact you</string>
+    <string name="delete_consequence_subtitle2">• Your contacts will be deleted</string>
+    <string name="delete_consequence_subtitle3">• Your all information will be deleted</string>
+    <string name="delete_consequence_subtitle4">• Your coins will be zeroed out.</string>
+    <string name="delete_consequence_subtitle5">• You won\'t be able to recover account</string>
+    <string name="delete_alert_title">You won\'t be able to recover account After deleting your account.</string>
+    <string name="input_hint">Please give us your feedback</string>
+    <string name="understand">I understand</string>
+    <string name="report_pornography">Pornographic behavior</string>
+    <string name="report_gender">Fake gender</string>
+    <string name="report_violence">Language violence</string>
+    <string name="report_others">Other</string>
+    <string name="report_completed">Thanks for your report, we will deal with it ASAP.</string>
+    <string name="tip_freeze_timing">You have been reported as “%1$s”behavior by another user. We  suspended your account within <![CDATA[<b><font color=#FF4360>%2$s</b>]]>.</string>
+    <string name="black_dialog_message">You won’t receive others\' message after you block them. You can unblock them in blacklist.</string>
+    <string name="complaint">complaint</string>
+    <string name="add_blocklist_complete">%1$s is blocked by you, you can unblock in blacklist.</string>
+    <string name="welcome_content">Hello %1$s. Welcome to LivU. You can video chat with cool people from all over the world.</string>
+    <string name="tip_gender_change">You have been reported as "Fake gender" behavior by another user, we have changed your gender to male.</string>
+    <string name="recharge_success">%1$d coins which you purchased to your account, is succeed.</string>
+    <string name="rate_rating_title">What do you think about LivU?</string>
+    <string name="rate_rating_subtitle">What do you think of LivU? Click on the stars and share with us.</string>
+    <string name="rate_high_score_title">Thank you for your praise</string>
+    <string name="rate_hign_score_subtitle">Thanks for 5 star rate! We\'ll keep working hard to make LivU better.</string>
+    <string name="rate_low_score_title">Could you tell us how we can improve?</string>
+    <string name="rate_low_score_subtitle">Any advice is important for us to improve user experience.</string>
+    <string name="rate_no_rating_title">Rate it on the Google Play</string>
+    <string name="rate_no_rating_subtitle">If you like this Application, please rate it in Google Play.</string>
+    <string name="rate_rate">Rate</string>
+    <string name="rate_not_now">Not now</string>
+    <string name="rate_feed_back">Feedback</string>
+    <string name="permission_denied_normal">Sorry, LivU needs storage, video and audio permissions for normal use.</string>
+    <string name="permission_denied_forever">Please give LivU needed permission for normal use in system settings.</string>
+    <string name="permission_request_allow">Allow</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="dialog_request_ignore_battery_optimize_message">Applications are not allowed to use battery optimization to ensure that messages from other users are received properly in the background.</string>
+    <string name="delete_acount">Delete Account</string>
+    <string name="hide_blur">Remove</string>
+    <string name="contect_us">contact us</string>
+    <string name="connecting">Connecting</string>
+    <string name="report_title_warn">Warning</string>
+    <string name="installation">install</string>
+    <string name="start_match">Start to match</string>
+    <string name="profile_report_tip">Report this user?</string>
+    <string name="no_users_block_list">There is no blocked user</string>
+    <string name="user_not_exist">The user does not exist</string>
+    <string name="user_deleted">The user does not exist</string>
+    <string name="profile_picture_violation">profile picture violation</string>
+    <string name="store">Store</string>
+    <string name="filter_dialog_my_coins">My coins</string>
+    <string name="account_terms_attention">By using LivU, you agree to the %1$s and %2$s</string>
+    <string name="terms_of_use">Terms of service</string>
+    <string name="terms_of_privacy">Privacy Policy</string>
+
+
+    <string name="start_match_from_history">Start to match</string>
+
+    <!-- 1.0.03 add string -->
+    <string name="bestme">Bestme</string>
+    <string name="bestme_content">let\'s take a Amazing photo</string>
+    <string name="bestme_dialog_content">The Bestme camera has <![CDATA[<big><b><font color=#ffffff>200+</b></big>]]> amazing filters and tickers ,try it now ?</string>
+    <string name="tip_freeze_timing_match">You have been reported as <![CDATA[<big><b><font color=#FF4360>match</b></big>]]> behavior by another user. We will suspend your account within <![CDATA[<b><font color=#FF4360>%1$s</b>]]>. If you have similar behaviors again, your account will be suspended permanently.</string>
+    <string name="invites_friend">Invite friends</string>
+    <string name="friend_list">Friends list</string>
+    <string name="more_tickers">More stickers here!</string>
+    <string name="please_payservice">Please install googlePayService first</string>
+    <string name="input_sign_name">Please enter your nickname</string>
+
+    <string name="confirm_exit_match_video">Are you sure you want to stop matching?</string>
+    <string name="operated_guide">Don\'t know how to use LivU? Please check <![CDATA[<a href=\'https://youtu.be/W1aHFNnWm8A\' >here</a>]]> for instructions.</string>
+    <string name="txt_friend_msg_tips">Tap the button to send the friends request</string>
+    <string name="freeze_lock_title">%1$d coins only to fast unlock</string>
+    <string name="freeze_ulock_title">%1$d coins only to fast unlock，Insufficient balance,Please refill now</string>
+    <string name="freeze_ulock">Unlock</string>
+    <string name="freeze_ulock_succ">Unlock complete, now you can continue to use match feature</string>
+    <string name="report_limit_use">Restrictions</string>
+    <string name="report_message">Sorry, you were reported by other users for pornographic or lude video actions. After our review, in order to maintain a suitible environment for all users, your account has been temporarily disabled.Persistent preverted behavior increases length suspension time</string>
+    <string name="report_limit_time">Issued on</string>
+    <string name="report_cause">Reason</string>
+    <string name="report_time">Left time</string>
+    <string name="popup_report_title">Maintain a healthy environment</string>
+    <string name="popup_not_report">Do not report</string>
+    <string name="pornography">Pornography</string>
+    <string name="match_connecting_tip5">A friend from %1$s is matching with you</string>
+    <!-- 10012 -->
+    <string name="text_quit_video">You can stop after %1$s seconds</string>
+    <string name="txt_favor_send">You just sent a Thumbs-Up!</string>
+    <string name="txt_favor_received">You got %1$s Thumbs-Ups!</string>
+    <string name="favor_toast_tips">Click the button to give a Thumbs-Up!</string>
+    <string name="text_activity">activity</string>
+    <!-- 1012 -->
+    <string name="name_edit_title">Name Edit</string>
+    <string name="filter_coins">%1$s Coins</string>
+    <!-- 1013 -->
+    <string name="txt_filter_gender">Choose gender</string>
+    <string name="give_gold_str">Get <![CDATA[<b><font color=#feda00>%1$d coins<br/></b>]]> to match beautiful girls.</string>
+    <string name="txt_tips_male">Click the gender you want to match</string>
+    <string name="txt_friends_match">Touch the screen to find new friends</string>
+    <!--<string name="give_gold_str">Get %1$d gold coins to match female</string>-->
+    <string name="give_gold_str_toast">Congratulations, you get %1$d free gold coins</string>
+    <string name="txt_gender_cons">Earn gold coin to select match gender</string>
+    <string name="txt_home_match_click">Click anywhere to match</string>
+    <string name="text_gender_select_dialog">Select gender</string>
+
+    <!-- 1004-->
+    <string name="text_store_help">Have paid, did not get coins?</string>
+    <string name="text_store_help_title">Help</string>
+    <string name="text_store_help_tips1">1.  check whether chargeback</string>
+    <string name="text_store_help_tips2">2.  In some cases, there may be a delay, you can kill the process, re-open the application to see the number of coins again</string>
+    <string name="text_store_help_tips3">3.  If the above 1, 2 is correct, but still not credited, please ID, purchase time, amount, provide to us, we check the comfort manually increase gold. </string>
+
+    <string name="interval_one_male_tip_1">Meeting attractive girls is a piece of cake on LivU!</string>
+    <string name="interval_one_male_tip_2">18 girls are waiting to match with you!</string>
+    <string name="interval_one_male_tip_3">You missed 29 beautiful girls nearby.</string>
+    <string name="interval_one_male_tip_4">12 people checked your profile, match and find them out!</string>
+    <string name="interval_one_male_tip_5">58 lovely girls around you just joined! Match with them now!</string>
+    <string name="interval_one_male_tip_6">Hot girl or elegant woman? It\'s up to you!</string>
+
+    <string name="interval_one_female_tip_1">Get FREE gifts, just start to match and get likes from others.</string>
+    <string name="interval_one_female_tip_2">Someone wants to add you as friend, start to match and meet him.</string>
+
+    <string name="interval_two_male_tip_1">Ready to meet your elegant girl tonight?</string>
+    <string name="interval_two_male_tip_2">36 pretty girls around you are online, start to chat now!</string>
+    <string name="interval_two_male_tip_3">23 pretty girls are waiting for you on LivU!</string>
+    <string name="interval_two_male_tip_4">37 pretty girls just joined in LivU. Come back to chat with them now!</string>
+    <string name="interval_two_male_tip_5">Maybe all she needs is a video call from you!</string>
+    <string name="interval_two_male_tip_6">Send your girl a Like and enjoy the night!</string>
+
+    <string name="interval_two_female_tip_1">Start to match and meet extraordinary!</string>
+    <string name="interval_two_female_tip_2">Get rid of boring life, just match with funny people on LivU!</string>
+
+    <string name="interval_three_male_tip_1">The 78 cute girl can be found only on LivU!</string>
+    <string name="interval_three_male_tip_2">57 hot girls in your area are using LivU now.</string>
+    <string name="interval_three_male_tip_3">Ashley: I\’m waiting for you on LivU!</string>
+    <string name="interval_three_male_tip_4">Is that a sweet girl like her you want to match?</string>
+    <string name="interval_three_male_tip_5">To be honest, do you want to match a cute girl like her?</string>
+    <string name="interval_three_male_tip_6">Swipe and meet girls around the world, and add them as friends.</string>
+
+    <string name="interval_three_female_tip_1">Hello beauty! Nice to meet you!</string>
+    <string name="interval_three_female_tip_2">A handsome boy nearby just sent a like, match and say hi!</string>
+
+    <string name="text_video_recharge_success">Top-up success</string>
+
+    <string name="text_store_preferential_no">%1$d%% OFF</string>
+    <string name="text_store_basis">Basic</string>
+    <string name="text_sex_select_like">Please choose the gender you want to meet</string>
+    <string name="text_match_conis_consumption">It will cost %1$d coins to filter by gender.</string>
+    <string name="text_match_start">Start to match</string>
+    <string name="text_match_end_confirm">Are you sure to stop matching?</string>
+    <string name="text_video_store_buy_succ">Purchase successfully</string>
+    <string name="text_store_buy_hlep_center">What should I do if I didn\'t receive coins after purchase?</string>
+    <string name="text_store_buy_hlep_title">Help Center</string>
+    <string name="text_store_conis_no_succ">What should I do if I didn\'t receive coins after purchase?</string>
+    <string name="text_store_help_tip1">1. Please double check if the money was deducted successfully.</string>
+    <string name="text_store_help_tip2">2. In some cases, coins may be delayed. Please sign out your LivU account first and log in again, then check if you have received the coins.</string>
+    <string name="text_store_help_tip3">3. If coins are still not received after trying all above, please send us your LivU ID and Google Play order number via email (service@livu.me). We will verify it and solve the problem ASAP.</string>
+    <string name="text_activity_new_tag">New</string>
+    <string name="receive_gold">OK</string>
+    <!-- 1015 -->
+    <string name="gift_guide">Click on the icon to give him a gift</string>
+    <string name="gender_filter_str">Do you still want to chat with girls?</string>
+    <string name="continue_match_girl">It will cost %1$d coins to filter by gender.</string>
+    <string name="tv_match_gender_price">%1$s Coins/time</string>
+    <string name="str_likes">Likes</string>
+    <string name="str_your_num_of_gift">The number of your gifts</string>
+    <string name="str_gift_received_empty">You haven\'t received a lot of praise</string>
+    <string name="str_start_match">Start Match</string>
+    <string name="account_item_gift_name">Gift List</string>
+    <string name="free_times">%1$d times</string>
+    <string name="video_store_gift_tips">Send a gift to express your liking.</string>
+    <string name="str_star">Star/ Stars</string>
+    <string name="str_gifts_received">Gift received</string>
+    <string name="str_gifts_received_count">%1$d received Gifts</string>
+    <string name="my_star_str">My Stars</string>
+    <string name="str_star_exchange">Exchange</string>
+    <string name="have_gift_str">Total number of gifts:</string>
+    <string name="str_gift_info_female_tips_">You can get stars when you receive gifts during video chat. Start to match now!</string>
+    <string name="str_gift_info_male_tips">You can send and receive fabulous gifts during video chat, just have a try!</string>
+    <!-- 1100-->
+    <string name="str_gift_task">Daily task</string>
+    <string name="str_gift_task_match_video">Daily Match video times</string>
+    <string name="str_gift_task_unfished">Unfinished&#160;</string>
+    <string name="str_gift_task_completed">Completed&#160;</string>
+    <string name="str_gift_task_received">Daily received gifts</string>
+    <string name="str_gift_week_goddess">Total earnings from Goddess match of this week</string>
+    <string name="str_gift_task_coins">Daily amount of coins</string>
+    <string name="str_gift_task_this_month">This Month</string>
+    <string name="str_gift_task_this_week">This week</string>
+    <string name="str_gift_task_this_week2">This week</string>
+
+    <string name="str_gift_task_this_half_month">Half Month</string>
+    <string name="str_gift_task_match_half_month">Total match video times of this half month</string>
+    <string name="str_gift_task_total_half_received">Total gifts received of this half month</string>
+    <string name="str_gift_task_month_half_call">Total earnings from calls of this half month</string>
+
+    <string name="str_gift_task_total_received">Total received gifts of this month</string>
+    <string name="str_gift_task_month_call">Total earnings from calls of this month</string>
+    <string name="str_gift_task_total_received_call">Total received call of this month</string>
+    <string name="str_gift_task_total_week_received">Total gifts received of this week</string>
+    <string name="str_gift_task_total_week_received2">Total gifts received of this week</string>
+    <string name="utc_time">UTC TIME</string>
+    <string name="str_gift_task_complete">Completed&#160;</string>
+    <string name="share_url">http://bit.ly/2CngE8m</string>
+    <string name="share_content">LivU - Meet new people &#038; Video chat with strangers</string>
+    <string name="facebook_sign_in_new">Sign in with Facebook</string>
+    <string name="phone_sign_in">Sign in with Phone</string>
+    <string name="gender_match_tip_or">or</string>
+    <string name="str_account_connect">Connect the World</string>
+
+
+    <!--kpi-->
+    <string name="str_gift_task_match_month">Total Match video times of this month</string>
+
+    <string name="str_gift_to_week_times">Total match video calls of this week</string>
+    <string name="str_gift_to_week_times2">Total match video calls of this week</string>
+    <string name="str_gift_to_day">Today</string>
+    <string name="popup_report_content">You saw inappropriate contents, please report it immediately!</string>
+    <string name="kpi_day_match_count"><![CDATA[<font color=\'#ff429f\'>%1$d</font>]]><![CDATA[<font color=\'#333333\'>/%2$d</font>]]></string>
+
+
+    <string name="home_out_confirm">再次点击返回</string>
+
+    <string name="str_friends_add_list">Add to friends list</string>
+    <string name="str_history_send_msg">Send Message</string>
+    <string name="praise_sent">Sent</string>
+    <string name="text_sex_select_like_2">Select the gender you want to match</string>
+    <string name="str_start_home_page">Go to your profile</string>
+    <string name="tap_to_start_2">Tap the screen to start</string>
+    <string name="str_i_know_yes">I got it</string>
+    <string name="str_we_already_friends">We are friends now, let\'s chat together!</string>
+    <string name="str_collection_text">Favorites</string>
+    <string name="str_collection_text_succ">Favorited</string>
+    <string name="str_collection_cancel">Favorite Canceled</string>
+    <string name="str_search_friends">Search friends</string>
+    <string name="str_search_text">Search</string>
+    <string name="str_search_no_data">Sorry, there are no results by that name.</string>
+    <string name="str_update_name_text">Edit alias</string>
+    <string name="str_no_balck_people">You have no blocked friends</string>
+    <string name="str_exit_touch_commit">Tap again to exit</string>
+    <string name="str_authorized_license">Permissions required</string>
+    <string name="str_goto_settings">Go to settings</string>
+    <string name="str_thumbs_like">Thumbs-ups</string>
+    <string name="str_thumbs_like_that">Received Thumbs-Ups</string>
+    <string name="str_sned_message_text">Send a message</string>
+    <string name="str_no_hat_thumbs">No Thumbs-ups，start to match and talk to someone new</string>
+    <string name="str_video_phone_save_pic">Video calling, taking and saving profile pictures</string>
+    <string name="str_video_phone_save_mic">Delivering sound during video calls</string>
+    <string name="str_livu_authorized_text">LivU needs your permission for you to enjoy Discover.</string>
+    <string name="str_pornography_tips_seal">Any pornography or nudity is not allowed if you are not friends. If you break this rule again, your account will be banned.</string>
+    <string name="str_video_call_cancel">Call canceled</string>
+    <string name="str_video_call_hang_up">Call canceled by caller</string>
+    <string name="str_video_call_refuse">Rejected call request</string>
+    <string name="str_video_call_end">Call ended</string>
+    <string name="str_video_phone_end">This call is canceled by caller</string>
+    <string name="str_video_call_connect">This user is unavailable now</string>
+    <string name="add_friend_pay_attention_message_male2">Add friends and chat with them will cost %1$d coins</string>
+    <string name="text_counry_global">Global</string>
+    <string name="str_counry_local_place">Local Place</string>
+    <string name="str_counry_local">Location</string>
+    <string name="str_counry_regional">Regional Preferences</string>
+    <string name="str_country_global">Global</string>
+    <string name="str_select_region">Select the region you want to match</string>
+    <string name="str_guide_go_it">I got it</string>
+    <string name="str_please_network_tips">Please check your network connection！</string>
+
+
+    <!-- countrys defult translation-->
+    <string name="country_AO">Angola</string>
+    <string name="country_AF">Afghanistan</string>
+    <string name="country_AL">Albania</string>
+    <string name="country_DZ">Algeria</string>
+    <string name="country_AD">Andorra</string>
+    <string name="country_AI">Anguilla</string>
+    <string name="country_AG">Antigua and Barbuda</string>
+    <string name="country_AR">Argentina</string>
+    <string name="country_AM">Armenia</string>
+    <string name="country_AC">Ascension</string>
+    <string name="country_AU">Australia</string>
+    <string name="country_AT">Austria</string>
+    <string name="country_AZ">Azerbaijan</string>
+    <string name="country_BS">Bahamas</string>
+    <string name="country_BH">Bahrain</string>
+    <string name="country_BD">Bangladesh</string>
+    <string name="country_BB">Barbados</string>
+    <string name="country_BY">Belarus</string>
+    <string name="country_BE">Belgium</string>
+    <string name="country_BZ">Belize</string>
+    <string name="country_BJ">Benin</string>
+    <string name="country_BM">Bermuda Is</string>
+    <string name="country_BO">Bolivia</string>
+    <string name="country_BW">Botswana</string>
+    <string name="country_BR">Brazil</string>
+    <string name="country_BN">Brunei</string>
+    <string name="country_BG">Bulgaria</string>
+    <string name="country_BF">Burkina-faso</string>
+    <string name="country_MM">Burma</string>
+    <string name="country_BI">Burundi</string>
+    <string name="country_CM">Cameroon</string>
+    <string name="country_CA">Canada</string>
+    <string name="country_KY">Cayman Is</string>
+    <string name="country_CF">Central African Republic</string>
+    <string name="country_TD">Chad</string>
+    <string name="country_CL">Chile</string>
+    <string name="country_CN">China</string>
+    <string name="country_CO">Colombia</string>
+    <string name="country_CG">Congo</string>
+    <string name="country_CK">Cook Is</string>
+    <string name="country_CR">Costa Rica</string>
+    <string name="country_CU">Cuba</string>
+    <string name="country_CY">Cyprus</string>
+    <string name="country_CZ">Czech Republic</string>
+    <string name="country_DK">Denmark</string>
+    <string name="country_DJ">Djibouti</string>
+    <string name="country_DO">Dominica Rep</string>
+    <string name="country_EC">Ecuador</string>
+    <string name="country_EG">Egypt</string>
+    <string name="country_SV">EI Salvador</string>
+    <string name="country_EE">Estonia</string>
+    <string name="country_ET">Ethiopia</string>
+    <string name="country_FJ">Fiji</string>
+    <string name="country_FI">Finland</string>
+    <string name="country_FR">France</string>
+    <string name="country_GF">French Guiana</string>
+    <string name="country_GA">Gabon</string>
+    <string name="country_GM">Gambia</string>
+    <string name="country_GE">Georgia</string>
+    <string name="country_DE">Germany</string>
+    <string name="country_GH">Ghana</string>
+    <string name="country_GI">Gibraltar</string>
+    <string name="country_GR">Greece</string>
+    <string name="country_GD">Grenada</string>
+    <string name="country_GU">Guam</string>
+    <string name="country_GT">Guatemala</string>
+    <string name="country_GN">Guinea</string>
+    <string name="country_GY">Guyana</string>
+    <string name="country_HT">Haiti</string>
+    <string name="country_HN">Honduras</string>
+    <string name="country_HK">Hongkong</string>
+    <string name="country_HU">Hungary</string>
+    <string name="country_IS">Iceland</string>
+    <string name="country_IN">India</string>
+    <string name="country_ID">Indonesia</string>
+    <string name="country_IR">Iran</string>
+    <string name="country_IQ">Iraq</string>
+    <string name="country_IE">Ireland</string>
+    <string name="country_IL">Israel</string>
+    <string name="country_IT">Italy</string>
+    <string name="country_CI">Ivory Coast</string>
+    <string name="country_JM">Jamaica</string>
+    <string name="country_JP">Japan</string>
+    <string name="country_JO">Jordan</string>
+    <string name="country_KH">Kampuchea (Cambodia )</string>
+    <string name="country_KZ">Kazakstan</string>
+    <string name="country_KE">Kenya</string>
+    <string name="country_KR">Korea</string>
+    <string name="country_KW">Kuwait</string>
+    <string name="country_KG">Kyrgyzstan</string>
+    <string name="country_LA">Laos</string>
+    <string name="country_LV">Latvia</string>
+    <string name="country_LB">Lebanon</string>
+    <string name="country_LS">Lesotho</string>
+    <string name="country_LR">Liberia</string>
+    <string name="country_LY">Libya</string>
+    <string name="country_LI">Liechtenstein</string>
+    <string name="country_LT">Lithuania</string>
+    <string name="country_LU">Luxembourg</string>
+    <string name="country_MO">Macao</string>
+    <string name="country_MG">Madagascar</string>
+    <string name="country_MW">Malawi</string>
+    <string name="country_MY">Malaysia</string>
+    <string name="country_MV">Maldives</string>
+    <string name="country_ML">Mali</string>
+    <string name="country_MT">Malta</string>
+    <string name="country_MP">Northern Mariana Islands</string>
+    <string name="country_MQ">Martinique</string>
+    <string name="country_MU">Mauritius</string>
+    <string name="country_MX">Mexico</string>
+    <string name="country_MD">Moldova, Republic of</string>
+    <string name="country_MC">Monaco</string>
+    <string name="country_MN">Mongolia</string>
+    <string name="country_MS">Montserrat Is</string>
+    <string name="country_MA">Morocco</string>
+    <string name="country_MZ">Mozambique</string>
+    <string name="country_NA">Namibia</string>
+    <string name="country_NR">Nauru</string>
+    <string name="country_NP">Nepal</string>
+    <string name="country_AN">Netheriands Antilles</string>
+    <string name="country_NL">Netherlands</string>
+    <string name="country_NZ">New Zealand</string>
+    <string name="country_NI">Nicaragua</string>
+    <string name="country_NE">Niger</string>
+    <string name="country_NG">Nigeria</string>
+    <string name="country_KP">North Korea</string>
+    <string name="country_NO">Norway</string>
+    <string name="country_OM">Oman</string>
+    <string name="country_PK">Pakistan</string>
+    <string name="country_PA">Panama</string>
+    <string name="country_PG">Papua New Cuinea</string>
+    <string name="country_PY">Paraguay</string>
+    <string name="country_PE">Peru</string>
+    <string name="country_PH">Philippines</string>
+    <string name="country_PL">Poland</string>
+    <string name="country_PF">French Polynesia</string>
+    <string name="country_PT">Portugal</string>
+    <string name="country_PR">Puerto Rico</string>
+    <string name="country_QA">Qatar</string>
+    <string name="country_RE">Reunion</string>
+    <string name="country_RO">Romania</string>
+    <string name="country_RU">Russia</string>
+    <string name="country_LC">Saint Lueia</string>
+    <string name="country_VC">Saint Vincent</string>
+    <string name="country_AS">Samoa Eastern</string>
+    <string name="country_WS">Samoa Western</string>
+    <string name="country_SM">San Marino</string>
+    <string name="country_ST">Sao Tome and Principe</string>
+    <string name="country_SA">Saudi Arabia</string>
+    <string name="country_SN">Senegal</string>
+    <string name="country_SC">Seychelles</string>
+    <string name="country_SL">Sierra Leone</string>
+    <string name="country_SG">Singapore</string>
+    <string name="country_SK">Slovakia</string>
+    <string name="country_SI">Slovenia</string>
+    <string name="country_SB">Solomon Is</string>
+    <string name="country_SO">Somali</string>
+    <string name="country_ZA">South Africa</string>
+    <string name="country_ES">Spain</string>
+    <string name="country_LK">Sri Lanka</string>
+    <string name="country_SD">Sudan</string>
+    <string name="country_SR">Suriname</string>
+    <string name="country_SZ">Swaziland</string>
+    <string name="country_SE">Sweden</string>
+    <string name="country_CH">Switzerland</string>
+    <string name="country_SY">Syria</string>
+    <string name="country_TW">Taiwan</string>
+    <string name="country_TJ">Tajikstan</string>
+    <string name="country_TZ">Tanzania</string>
+    <string name="country_TH">Thailand</string>
+    <string name="country_TG">Togo</string>
+    <string name="country_TO">Tonga</string>
+    <string name="country_TT">Trinidad and Tobago</string>
+    <string name="country_TN">Tunisia</string>
+    <string name="country_TR">Turkey</string>
+    <string name="country_TM">Turkmenistan</string>
+    <string name="country_UG">Uganda</string>
+    <string name="country_UA">Ukraine</string>
+    <string name="country_AE">United Arab Emirates</string>
+    <string name="country_GB">United Kiongdom</string>
+    <string name="country_US">United States</string>
+    <string name="country_UY">Uruguay</string>
+    <string name="country_UZ">Uzbekistan</string>
+    <string name="country_VE">Venezuela</string>
+    <string name="country_VN">Vietnam</string>
+    <string name="country_YE">Yemen</string>
+    <string name="country_YU">Yugoslavia</string>
+    <string name="country_ZW">Zimbabwe</string>
+    <string name="country_ZR">Zaire</string>
+    <string name="country_ZM">Zambia</string>
+    <string name="country_AQ">Antarctica</string>
+    <string name="country_AW">Aruba</string>
+    <string name="country_BA">Bosnia and Herzegovina</string>
+    <string name="country_BT">Bhutan</string>
+    <string name="country_CD">Democratic Republic of the Congo</string>
+    <string name="country_CV">Cape Verde</string>
+    <string name="country_DM">Dominica</string>
+    <string name="country_FO">Faroe Islands</string>
+    <string name="country_GG">Guernsey</string>
+    <string name="country_GP">Guadeloupe</string>
+    <string name="country_GQ">Equatorial Guinea</string>
+    <string name="country_GW">Guinea-Bissau</string>
+    <string name="country_HR">Croatia</string>
+    <string name="country_JE">Jersey</string>
+    <string name="country_KN">Saint Kitts and Nevis</string>
+    <string name="country_MH">Marshall Islands</string>
+    <string name="country_MK">Macedonia</string>
+    <string name="country_MR">Mauritania</string>
+    <string name="country_NC">New Caledonia</string>
+    <string name="country_PS">Palestine</string>
+    <string name="country_PW">Palau</string>
+    <string name="country_RW">Rwanda</string>
+    <string name="country_TL">East Timor</string>
+    <string name="country_VA">Vatican</string>
+    <string name="country_VI">U.S. Virgin Islands</string>
+    <string name="country_YT">Mayotte</string>
+    <string name="country_AX">Aland Islands</string>
+    <string name="country_BL">Saint Barthelemy</string>
+    <string name="country_BQ">Bonaire Sint Eustatius and Saba</string>
+    <string name="country_CW">Curacao</string>
+    <string name="country_FM">Federated States of Micronesia</string>
+    <string name="country_IM">Isle of Man</string>
+    <string name="country_KI">Kiribati</string>
+    <string name="country_ME">Montenegro</string>
+    <string name="country_MF">Saint Martin</string>
+    <string name="country_RS">Serbia</string>
+    <string name="country_SS">Republic of South Sudan</string>
+    <string name="country_SX">Sint Maarten</string>
+    <string name="country_TC">Turks and Caicos Islands</string>
+    <string name="country_XK">Kosovo</string>
+    <string name="add_friend_id_input_tips">Search ID</string>
+
+    <string name="dialog_text_gender_select_dialog">Gender Preferences</string>
+    <string name="friend_request_send">Your friend request has been sent</string>
+    <string name="friend_request_send_be_add">You\'ve sent friend request to this ID</string>
+    <string name="add_friend_search_tips1">Sorry, there are no results by that ID.</string>
+    <string name="add_friend_search_tips2">请输入正确的数字</string>
+    <string name="add_friend_search_tips3">ID最少需XX个数字</string>
+    <string name="add_friend_search_tips4">Sorry, you\'re not allowed to add yourself as a friend!</string>
+    <string name="add_friend_search_tips5">You\'re already friends with this person</string>
+    <string name="education_img_tips">In order to have a great time here, please be considerate of each other!</string>
+    <string name="education_text_context2">Nudity, Topless or Shirtless</string>
+    <string name="education_text_context3">Exposed buttocks or genitals</string>
+    <string name="education_text_context4">Others (Vulgar language, Violence, Dangerous activities, ……)</string>
+    <string name="str_video_gift_tips">She is a popular girl. Send her a gift.</string>
+    <string name="str_friends_by_livu_id">Add friends by LivU ID</string>
+    <string name="add_friends">Add Friends</string>
+    <string name="you_can_speak_now">You can speak now</string>
+    <string name="speech_translate_loading">Loading</string>
+    <string name="str_video_translate_text">Text message translation</string>
+    <string name="str_video_translate_video">Real-time voice translation</string>
+    <string name="result_is_null">Speech recognize result is empty</string>
+
+
+    <string name="lable_top">Top</string>
+    <string name="pic_guide_3">Give fabulous gifts to your affections</string>
+    <string name="str_do_not_video_speak_tips2">Don\'t show again.</string>
+    <string name="str_please_speak_video">Please speak!</string>
+    <string name="str_video_speak_tips">It will appear when your friend is using voice recognition.</string>
+    <string name="str_video_speak_tips2">You may not be able to hear his/her voice which depends on their devices.</string>
+    <string name="text_store_preferential">%1$d%2$s OFF</string>
+    <string name="_70_off" translatable="false">70% Off</string>
+
+    <!--version 1106-->
+    <string name="request_add_friend">%1$s sent you a friend request</string>
+    <string name="request_add_friend_back">%1$s has added you as a friend</string>
+
+    <string name="already_added_friend">You\'ve added %1$s as your friend</string>
+    <string name="accepted_friend_request">You\'ve accepted %1$s\'s friend request</string>
+    <string name="add_friend_pay_attention_message_male">Spend %1$d coins to start chatting. He is waiting for you.</string>
+    <string name="add_friend_pay_attention_message_female">Spend %1$d coins to start chatting. She is waiting for you.</string>
+
+    <string name="chat_pay_attention_message_male">It will cost %1$d coins to add a friend and chat with him.</string>
+    <string name="chat_pay_attention_message_female">It will cost %1$d coins to add a friend and chat with her.</string>
+    <string name="chat_pay_attention_ok">OK</string>
+
+
+    <string name="receive_golds_error">Receive coins failed</string>
+
+
+    <string name="helper_freeze_attention">Pornographic behaviors and nudity are NOT allowed if you are not friends. You will be banned if you break this rule.</string>
+    <string name="view_detail">View Details</string>
+    <string name="receive_coins">Collect Coins</string>
+    <string name="received_coins">Received %1$d coins</string>
+    <string name="had_received_golds_before">Failed. You\'ve collected coins before.</string>
+    <string name="obtain_coins_success">Coins Collected</string>
+    <string name="str_send_you_noe_git">%1$s sent you a gift.</string>
+    <string name="str_gift_list">[Gift]</string>
+    <string name="program_running">LivU is running in the background.</string>
+    <string name="str_livu_ok_text">OK</string>
+    <string name="str_country_areas_100">Global</string>
+    <string name="str_country_areas_0">other</string>
+    <string name="str_country_areas_1">Thailand</string>
+    <string name="str_country_areas_2">Philippines</string>
+    <string name="str_country_areas_3">Indonesia</string>
+    <string name="str_country_areas_4">Southeast Asia</string>
+    <string name="str_country_areas_5">Saudi Arabia</string>
+    <string name="str_country_areas_6">United Arab Emirates</string>
+    <string name="str_country_areas_7">Kuwait</string>
+    <string name="str_country_areas_8">Arab Gulf State</string>
+    <string name="str_country_areas_9">Egypt</string>
+    <string name="str_country_areas_10">Turkey</string>
+    <string name="str_country_areas_11">India</string>
+
+
+    <string name="goddess">Goddess</string>
+    <string name="insufficient_balance_please_buy_some_coins">Insufficient balance, Please buy some coins.</string>
+
+
+    <string name="match_guide_goddess">Goddess</string>
+    <string name="str_guide_tips_goddess">Meet pretty girls</string>
+    <string name="label_goddess_wall">Goddess Wall</string>
+    <string name="str_store_just_one_time">Just One Time</string>
+    <string name="match_no_available_goddess_now">There\'s no available Goddess now. Please select a different gender in filter.</string>
+    <string name="prompt_expand_search">There\'s no available Goddess now. Please select a different gender in filter.</string>
+    <string name="str_goddess_error">Unrequested data, please refresh</string>
+    <string name="goddess_load_failed">Connection error. Please refresh.</string>
+    <string name="language_1">English</string>
+    <string name="language_26">Thai</string>
+    <string name="language_20">Turkish</string>
+    <string name="language_8">Arabic</string>
+    <string name="language_31">Hindi</string>
+    <string name="language_10">Indonesian</string>
+    <string name="language_5">French</string>
+    <string name="goddess_busy">Goddess is busy now</string>
+    <string name="call_price">Price of Video Call</string>
+    <string name="dialog_goddess_call_gold_not_enough_message">It will cost # %1$d([TicketIcon]%2$s)/Min to call her. The part less than 1 Min. will be rounded up to 1 Min. Insufficient balance. Please recharge</string>
+    <string name="str_call_goddess_carry">Continue</string>
+    <string name="dialog_goddess_pay_attention_message">It will cost # %1$d([TicketIcon]%2$s)/Min to call her. The part less than 1 Min. will be rounded up to 1 Min.</string>
+    <string name="str_coin_price_insufficient">Insufficient balance. Click to recharge.</string>
+    <string name="str_request_http_error">Connection error. Please try again.</string>
+    <string name="str_pornography_not_friends_tips">Any pornography or nudity is NOT allowed if you are not friends.</string>
+    <string name="str_price_of_friends_call">Price of Friend Call</string>
+    <string name="me_goddess_item_price">Price of Friend Call</string>
+    <string name="goddess_online_switch">Goddess Status</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="str_goddess_incoming_call">Earning: # %1$d/Min</string>
+    <string name="me_goddess_item_price_activity">Price of Friend Call</string>
+    <string name="str_goddess_price_change">Price of friend call has been adjusted, please reselect the price.</string>
+    <string name="str_incoming_call_min_price">%1$d/Min</string>
+    <string name="str_incoming_call_min_price_new">%1$d</string>
+
+    <string name="str_goddess_ok">OK</string>
+    <string name="str_gift_task_call">Daily earnings from calls</string>
+    <string name="str_gift_task_goddess">Daily earnings from Goddess match</string>
+    <string name="str_gift_week_call">Total earnings from calls of this week</string>
+    <string name="str_assistant_end_match">Video chat with %1$s has ended. You\'ve received %2$d coins.</string>
+    <string name="str_system_missed_phone">You missed %1$d calls, so your Goddess Status has been changed to offline. If you need to get online, please set manually.</string>
+    <string name="str_new_package">Once Only</string>
+    <string name="goddess_version_update_message">Please update to the newest version, and then call me again.</string>
+    <string name="cannot_send_message_to_blocked_poeple">This user is in your blacklist so you can\'t send messages. You can unblock this user in the blacklist.</string>
+
+
+    <!--version 1118 add   -->
+    <string name="recover">Recover</string>
+    <string name="goddess_list_call">Goddess List Call</string>
+    <string name="friend_call">Friend call</string>
+
+    <string name="video_time_profit">Video chat with %1$s has ended. You\'ve received %2$d coins.</string>
+
+    <string name="video_toast_cancel">Call canceled</string>
+    <string name="video_toast_be_cancel">Call canceled by caller</string>
+    <string name="video_toast_be_denied">This user is unavailable now</string>
+    <string name="video_toast_denied">Call request declined</string>
+    <string name="video_toast_hangup_by_caller">Call ended</string>
+    <string name="video_toast_be_hangup_by_caller">Call canceled by caller</string>
+    <string name="video_toast_be_hangup_by_receiver">Call canceled by other user</string>
+    <string name="video_toast_hangup_by_receiver">Call ended</string>
+    <string name="video_toast_no_answer">This user is unavailable now</string>
+    <string name="video_toast_missed">Call canceled by caller</string>
+    <string name="chat_message_content_call_denied">Declined</string>
+    <string name="chat_message_content_call_canceled">Canceled</string>
+    <string name="custom_service_notification_message">You\'ve got a new message.</string>
+    <string name="customer_service">Customer Service</string>
+    <string name="helper_server_attention_message">Hello %1$s . We have customer service staff now. Click the Customer Service button below to contact us if you have any questions. Thank you.</string>
+    <string name="str_store_help_me">Contact us if you have any questions.</string>
+    <string name="have_problem">Have Problem?</string>
+    <string name="dialog_aihelp_msg">Do you need help with buying coins? Click "Customer Service" to contact us now. Thank you.</string>
+    <string name="str_ai_help_not_now">Not Now</string>
+    <string name="str_help_faq">FAQ</string>
+    <string name="str_friend_coming">Incoming Call</string>
+    <string name="str_friend_connectiong">Connecting…</string>
+    <string name="str_kpi_calls_number">Total earnings from calls of this month</string>
+    <string name="blur">Blur</string>
+
+    <!--version 1120 add   -->
+    <string name="customer_service_welcome_text">Thanks for contacting us. You can enter your questions here, we will check and reply to you as soon as possible.</string>
+    <string name="language_1001">Featured</string>
+    <string name="language_1002">New</string>
+
+
+    <!--version 1121 add   -->
+    <string name="rule_description">Rule Description</string>
+    <string name="active_reward">Active reward</string>
+
+    <string name="active_reward_countdown">Today will be end in:</string>
+    <string name="active_reward_week_0">Mon</string>
+    <string name="active_reward_week_1">Tues</string>
+    <string name="active_reward_week_2">Wed</string>
+    <string name="active_reward_week_3">Thur</string>
+    <string name="active_reward_week_4">Fri</string>
+    <string name="active_reward_week_5">Sat</string>
+    <string name="active_reward_week_6">Sun</string>
+    <string name="check_in_reward">1.Check-in Reward</string>
+    <string name="check_in_reward_desc">Complete the check-in task and check in to receive rewards.  Check in everyday to get more coins. Rewards will be reset if a day is missed.</string>
+    <string name="check_in_task">Check-in task:</string>
+    <string name="match_times">match %1$s times</string>
+    <string name="check_in">Check in</string>
+    <string name="daily_active_reward">2.Daily active reward</string>
+    <string name="daily_active_reward_desc">More coins you received, the more reward you get. Coin includes gift coins and call coins</string>
+    <string name="received">Received</string>
+    <string name="receive">Receive</string>
+    <string name="reward">reward %1$s</string>
+    <string name="checked_in">Checked In</string>
+
+    <string name="kpi_daily_reward">Active mission revenue today</string>
+    <string name="kpi_week_reward">Accumulated active mission revenue this week</string>
+    <string name="kpi_half_month_reward">Half-month cumulative active mission revenue</string>
+    <string name="kpi_month_reward">Accumulated active mission revenue this month</string>
+
+    <string name="language_30">Vietnamese</string>
+    <string name="language_4">Russian</string>
+    <string name="language_12">Portuguese</string>
+    <string name="language_3">Spanish</string>
+
+    <!--version 1122 add   -->
+    <string name="svip_customer_service">Exclusive Service</string>
+    <string name="kpi_rate">%1$s = 1USD</string>
+    <string name="day_consume_value">receive %1$s gold coin</string>
+    <string name="income_report">Income report</string>
+    <string name="christmas_activity_page_url">https://www.livuchat.com/ranking/#/</string>
+
+    <!--version 1123 add   -->
+    <string name="received_let_her_open">he buy a lucky draw for you</string>
+    <string name="coins_per_time">%1$s/Time</string>
+    <string name="open">Open</string>
+    <string name="let_her_open">Let Her Open</string>
+    <string name="exchange_lucky_draw">Recharge</string>
+    <string name="send_lucky_draw_gift_success_hint">Congratulations. Your mysterious gift has been sent out</string>
+    <string name="waiting">Waiting</string>
+    <string name="let_her_open_click_hint">Your lucky gift has been sent out</string>
+    <string name="hint_pay_to_play_luck_draw">Your girl wants a lucky gift. Spend %1$s coins on it</string>
+    <string name="send">Sent out</string>
+    <string name="send_lucky_draw_gift_success_hint_send_button">Congratulations. Your girl has received your mysterious gift</string>
+    <string name="thanks_gift">Thank you, darling!</string>
+    <string name="your_girl_is_happy">Your girl is so happy</string>
+    <string name="refuse_want_play_male">You declined her request</string>
+    <string name="want_to_play">Request to draw</string>
+    <string name="want_play_has_send">Your request has been issued</string>
+    <string name="want_play_accepted">The other side agrees to your request</string>
+    <string name="thanks">Thanks</string>
+    <string name="want_play_refuse">Sorry, your request is denied</string>
+    <string name="lucky_draw_entry_hint">Spend %1$s coins for your girl on the big prize</string>
+    <string name="chat_message_content_missed_gift_sent">Your gift has been delivered</string>
+    <string name="chat_message_content_missed_gift_received">A gift from %1$s ID:<![CDATA[<b><u><font color=#1466ED>%2$s</u></b>]]></string>
+    <string name="go_on_playing">Again</string>
+    <string name="system_notification">System Notices</string>
+    <string name="income">Income Notices</string>
+    <string name="beauty_white">Whiten</string>
+    <string name="beauty_skin">Smooth</string>
+    <string name="beauty_face_thin">Thin Face</string>
+    <string name="beauty_eye_enlarge">Enlarge Eyes</string>
+    <string name="dialog_pay_help_title">Payment Help</string>
+    <string name="dialog_pay_help_message">Please go to more ways to pay</string>
+    <string name="forward">Go</string>
+    <string name="guide_send_gift"><![CDATA[<b><u><font color=#FF64BA>Present the gift </u></b>]]> to top the messages</string>
+
+    <!--<string name="pay_help_url">https://www.livuchat.com/payment/#/mobile/store</string>-->
+    <string name="operation_failed">Operation Failed</string>
+    <string name="lucky_draw">Lucky Drawing</string>
+
+
+    <string name="pay_help_url">http://www.livuchat.com/payment/#/mobile/store</string>
+    <string name="daily_task">daily task</string>
+    <string name="lucky_draw_url">http://webluckdraw.rcplatformhk.com/lottery/#/</string>
+
+    <!--add version 1124-->
+    <string name="recharge_package">Recharge Package</string>
+    <string name="daily_recharge_package">Daily recharge Package</string>
+    <string name="accumulated_package">Accumulated Package</string>
+    <string name="activity_count_down">Events Countdown</string>
+    <string name="gold_coin_recharge">Recharge %1$s gold coins</string>
+    <string name="xx_hours">%1$s hours</string>
+    <string name="xx_days">%1$s days</string>
+    <string name="recharge_feedback_faq_title">VIP Experience Card Introduction</string>
+    <string name="recharge_feedback_faq_content1">Symbol of VIP noble identity</string>
+    <string name="recharge_feedback_faq_content2">VIP exclusive avatar box</string>
+    <string name="recharge_feedback_faq_content3">VIP exclusive showing effects</string>
+    <string name="recharge_feedback_faq_content4">Rear camera</string>
+    <string name="recharge_feedback_faq_content5">VIP exclusive gifts.</string>
+    <string name="recharge_feedback_faq_subtitle">Get five privileges with a VIP card.</string>
+    <string name="experience_package">Experience Package</string>
+    <string name="buy_any_gold_coins_to_get_all">Recharge any amount to get all</string>
+    <string name="receive_all">receive all</string>
+    <string name="buy_gold_coins_to_get_all">Recharge %1$s gold coins to get all</string>
+    <string name="video_chat_now">Video Chat Now</string>
+    <string name="reward_title">Reward</string>
+    <string name="speech_talk">Press to talk</string>
+    <string name="translate_failed">Failed to translate. Please try again</string>
+    <string name="speech_talk_sort_time_error_hint">Voice too short. Please try again!</string>
+
+
+    <string name="gift_hot">Hot</string>
+    <string name="gift_vip">VIP</string>
+    <string name="gift_bag">Backpack</string>
+    <string name="gift_empty">""</string>
+    <string name="gift_not_vip_id">not vip identification</string>
+    <string name="first_recharge">Surprise</string>
+    <string name="paoneer_account_setting">"Payment platform registration "</string>
+    <string name="payment_assistance_content">This agreement is between you and us. By confirming, you agree to and accept the Terms and Conditions of Payment Service.</string>
+    <string name="payment_assistance">Terms of Payment Service</string>
+    <string name="kpi_week_praise">Total Likes of this week</string>
+    <string name="kpi_half_month_praise">Total Likes of this half month</string>
+    <string name="kpi_month_praise">Total Likes of this month</string>
+    <string name="day_task_praise">Daily Likes</string>
+    <string name="last_week_achievement">Last week\'s achievement</string>
+    <string name="payment_assistance_agreement">I agree with this agreement</string>
+    <string name="underline"><![CDATA[<u>%1$s</u>]]></string>
+    <string name="str_gift_task_month_half_match">Total earnings from Goddess match of this half month</string>
+    <string name="str_gift_task_month_match">Total earnings from Goddess match of this month</string>
+    <string name="install_play_service">Intall or update</string>
+    <string name="switch_phone_call">Incoming call notification</string>
+    <string name="help_feedback">Help and feedback</string>
+    <string name="last_week_level">Last week level</string>
+    <string name="wall_video_chat">Wall video chat</string>
+    <string name="friend_video_chat">Friend video chat</string>
+    <string name="level">level</string>
+
+
+    <!---goddess min-->
+    <string name="goddess_text_min">Min</string>
+    <!--<string name="video_chatting_ticket_usage">有券的话先用券啊</string>-->
+    <!--<string name="video_chatting_ticket_usage_with_pay_attention">有券的话先用券啊,没券就%1$d 每分钟</string>-->
+    <string name="video_chatting_ticket_usage1">通话券可用于发起视频聊天使用。</string>
+    <string name="video_chatting_ticket_usage2">您当前通话券余额充足，将会优先使用通话券，直至通话券余额不足，再使用金币。</string>
+    <string name="receive_video_ticket_hint_first">恭喜，你获得了%1$s张通话券，可以到背包中查看，下次视频可以使用哦</string>
+    <string name="receive_video_ticket_error_no_qualification">无领取资格</string>
+    <string name="receive_video_ticket_error_received_already">已领取过奖励</string>
+    <string name="receive_video_ticket_error_other">领取失败</string>
+    <string name="translate_limit_dialog_title">翻译已达限制</string>
+    <string name="match_dialog_balance">余额</string>
+    <!--<string name="translate_limit_dialog_message">每日只有%1$s次免费翻译机会，购买任意金币包即可解锁翻译功能</string>-->
+    <string name="translate_limit_dialog_message_part">购买任意金币包即可解锁翻译功能</string>
+    <string name="translate_limit_store_message">充值即可解锁翻译功能</string>
+    <string name="translate_limit_hint">每日只有%1$s次免费翻译机会</string>
+
+    <string name="goddess_level_max_limit">This video price level is available to %1$s and above users.</string>
+    <string name="dialog_goddess_price_chanage_content1">Due to the friend video chat price adjustment, your friend video price has been adjusted to # %1$s.</string>
+    <string name="dialog_goddess_price_chanage_content2">Congrats! You have upgraded to %1$s, you can set a higher friend video call price now.</string>
+    <string name="dialog_goddess_price_chanage_content3">Congrats! You have upgraded to %1$s. Due to the friend video chat price adjustment, your friend video chat price has been adjusted to # %2$s.</string>
+    <string name="dialog_goddess_price_chanage_content4">Your level is degraded from %1$s to %2$s. Please check all available friends video chat prices.</string>
+    <string name="dialog_goddess_price_chanage_content5">Because your level has been degraded from %1$s to %2$s, your friend video chat price has been adjusted to # %3$s by the system automatically.</string>
+    <string name="go_to_view">Check Price</string>
+    <string name="go_to_setting">Settings</string>
+
+    <string name="setting_note_name">Alias</string>
+    <string name="online_remind">Online reminder</string>
+    <string name="online_notify_tip">Turn on friend online reminder to keep yourself informed of friends status</string>
+    <string name="add_buddy">Add friends</string>
+    <string name="friends_online_tip">Quickly set up friend online reminder</string>
+    <string name="notify_top_up_message">You are currently entitled to add %1$s friend reminders, top-up to upgrade that number to %2$s</string>
+    <string name="remind_limit_tip">Oops！No more friend online reminder. </string>
+    <string name="birthday_fill_tip">(Please fill in the correct birthday)</string>
+    <string name="notification_of_friend_online">Top-up to unlock online reminder for more friends</string>
+    <string name="open_the_number">Friend online reminder</string>
+    <string name="open_the_number_part">: %1$s/%2$s </string>
+
+    <string name="goddess_price_faq_top_content">Calculate the gold COINS consumed in the last week every week, and divide them into different grades according to the proportion. Each grade corresponds to different price stalls</string>
+    <string name="goddess_price_faq_title">Video price specification</string>
+    <string name="goddess_price_faq_bottom">* if there are prices other than the above price stalls, the staff will adjust them manually</string>
+
+    <!-- 用户主页-> 我的背包 -->
+    <string name="setting_bag">My Backpack</string>
+    <string name="user_gift_bag">Gifts</string>
+    <string name="user_card_ticket">Cards and Coupons</string>
+    <string name="bag_empty">Gift is empty</string>
+    <string name="bag_not_card_tick">not card ticket</string>
+    <string name="bag_gift_to_draw">to draw</string>
+
+    <string name="bag_vip_detail">Check my rights</string>
+    <string name="bag_card_name_call_ticket">Call Coupons</string>
+    <string name="bag_call_ticket_desc">Can be used to initiate a minute billing video chat</string>
+    <string name="bag_card_name_draw_luck">Lucky Draw Coupon</string>
+    <string name="bag_draw_ticket_desc">Can be used for Lucky Draw</string>
+    <string name="bag_card_name_match">Match Coupon</string>
+    <string name="bag_match_ticket_desc">Can be used for targeted gender matching</string>
+    <string name="bag_dialog_call_ticket_help_title">Call Coupons Description</string>
+    <string name="bag_dialog_call_ticket_help_message">Call Coupons can be used to call someone at the Goddess Wall or call your friends who consumes minute billing. Call Coupons will be used preferentially if its balance is sufficient to cover at least one-minute; if the balance can not cover even one minute, coins will be deducted instead. </string>
+
+    <!--我的背包->VIP描述弹出窗口->文字提示信息-->
+    <string name="bag_vip_text_title">VIP rights</string>
+    <string name="bag_vip_text_translation">Unlimited use of translation</string>
+    <string name="bag_vip_text_identification">VIP exclusive logos</string>
+    <string name="bag_vip_text_head_pic">VIP exclusive profile frames</string>
+    <string name="bag_vip_text_head_animator">VIP exclusive entry effect</string>
+    <string name="bag_vip_text_rear_camera">Use rear camera</string>
+    <string name="bag_vip_text_gift">VIP exclusive gifts</string>
+    <string name="bag_vip_text_statement">If you have received multiple VIP experience cards, your total experience time will be accumulated.</string>
+
+    <!-- card details activity text -->
+    <string name="bag_card_detail_activity_title">Cards and Coupons Descripyion</string>
+    <string name="bag_card_detail_call_title">Call Coupons Description</string>
+    <string name="bag_card_detail_call_text_1">- Can only be used for calling someone at the Goddess Wall or calling your friends who consumes minute billing.</string>
+    <string name="bag_card_detail_call_text_2">- Call Coupons will be used preferentially if its current balance is sufficient to cover at least one minute; if the balance is insufficient to cover even one minute, Coins will be deducted instead</string>
+    <string name="bag_card_name_draw_luck_title">Lucky Draw Coupons Description</string>
+    <string name="bag_card_detail_draw_luck_text_1">- Can only be used for turntables that support using Lucky Draw Coupons.</string>
+    <string name="bag_card_detail_draw_luck_text_2">- Lucky Draw Coupons will be used preferentially if its current balance is sufficient to cover a Lucky Draw; if the balance is insufficient for even one time, Coins will be deducted instead. </string>
+    <string name="bag_card_name_match_title">Match Coupons Description</string>
+    <string name="bag_card_detail_match_text_1">- It can be used for gender select matching.</string>
+    <string name="bag_card_detail_mactch_text_2">- Match Coupons will be used preferentially if its current balance is sufficient to cover one time filter match; if the balance is insufficient to cover even one time, Coins will be deducted instead. </string>
+
+    <string name="bag_vip_member_id">Mumber ID</string>
+    <string name="google_signin">Google signin</string>
+
+
+</resources>
