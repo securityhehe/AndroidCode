@@ -5,7 +5,15 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
+    <TextView
+        android:id="@+id/test"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
     <android.support.v7.widget.RecyclerView
+        android:visibility="gone"
         android:scrollbars="vertical"
         android:id="@+id/articles"
         android:layout_height="wrap_content"
@@ -13,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
+        android:visibility="gone"
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
