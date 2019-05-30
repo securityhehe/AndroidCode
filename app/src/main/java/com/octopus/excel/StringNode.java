@@ -4,6 +4,8 @@ package com.octopus.excel;
  * node 节点。
  */
 public class StringNode {
+    public String execlName;
+    public String xmlFiileName;
     public String name;
     public String value;
 

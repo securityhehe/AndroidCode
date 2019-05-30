@@ -3,4 +3,8 @@
 <resources>
   <string name="user">cc</string>
   <string name="testaaaa">12adfadfadfadf31231231231dafddddd23xxxxxxxxxxx123123</string>
+  <string name="matching">matching</string>
+  <string name="app_name">app_name</string>
+  <string name="sign_up_info">E-posta adresini ve parolanı gir</string>
+  <string name="bag_dialog_call_ticket_help_message">Arama Kuponlarını görüntülü sohbet için kullanabilirsiniz. Bakiye en az bir dakikayı karşılamaya yetiyorsa öncelikle Arama Kuponları kullanılır; bakiye bir dakika için bile yeterli değilse Altın Para kullanılır.</string>
 </resources>

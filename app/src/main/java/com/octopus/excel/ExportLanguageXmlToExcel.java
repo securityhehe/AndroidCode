@@ -192,8 +192,8 @@ public class ExportLanguageXmlToExcel extends Constent{
     }
 
 
-    public Map<Integer,StringNode> readExcel(String path, String sheetName, String key) throws IOException {
-        Map<Integer,StringNode> stringNodeMap = new HashMap<>();
+    public Map<String,StringNode> readExcel(String path, String sheetName, String key) throws IOException {
+        Map<String,StringNode> stringNodeMap = new HashMap<>();
         File xlsFile = new File(path);
         if (StringUtils.isBlank(path)) {
             throw new IllegalArgumentException("文件路径不能为空");
@@ -208,7 +208,7 @@ public class ExportLanguageXmlToExcel extends Constent{
             throw new IllegalArgumentException("文件后缀不能为空");
         }
 
-        if (!OFFICE_EXCEL_XLS.equals(suffiex) || !OFFICE_EXCEL_XLSX.equals(suffiex)) {
+        if (!OFFICE_EXCEL_XLS.equals(suffiex) && !OFFICE_EXCEL_XLSX.equals(suffiex)) {
             throw new IllegalArgumentException("该文件非Excel文件");
         }
 
@@ -235,17 +235,43 @@ public class ExportLanguageXmlToExcel extends Constent{
         for(int i = 0 ; i< lastRowNum;i++){
             Row row = sheet1.getRow(i);
             Cell cell = row.getCell(0);
-            if(cell.getCellType() == CellType.STRING){
-                String stringCellValue = cell.getStringCellValue();
-                if(key.equals(stringCellValue.trim())){
-                    isFind = true;
-                    for(int j=1;j <values.length + 1; j++){
-                        String stringCellValue1 = cell.getStringCellValue();
-                        if(stringCellValue1 !=null && !stringCellValue.isEmpty()){
-                            StringNode stringNode = new StringNode();
-                            stringNode.name  = key;
-                            stringNode.value = stringCellValue1;
-                            stringNodeMap.put(j-1,stringNode);
+            if(cell!=null) {
+                if (cell.getCellType() == CellType.STRING) {
+                    String stringCellValue = cell.getStringCellValue();
+                    if (key.equals(stringCellValue.trim())) {
+
+                        //找到对应的key
+                        isFind = true;
+                        for (int j = 1; j < 18; j++) {
+                            //得到第一行的每一个单元格。
+                            Row rowTitle = sheet1.getRow(0);
+                            Cell cellTitle = rowTitle.getCell(j);
+
+                            if(cellTitle!=null){
+
+                                String stringTitle = cellTitle.getStringCellValue();
+
+                                Cell cellValue = row.getCell(j);
+                                if(cellValue!=null) {
+                                    String stringCellValue1 = cellValue.getStringCellValue();
+                                    if (stringCellValue1 != null && !stringCellValue.isEmpty()) {
+                                        StringNode stringNode = new StringNode();
+                                        stringNode.name = key;
+                                        stringNode.value = stringCellValue1;
+                                        //找到Contents常量中value的值。
+                                        for(int x = 0 ; x< Constent.values.length; x++){
+                                            boolean contains = values[x].contains(stringTitle);
+                                            if(contains){
+                                                stringNode.xmlFiileName = values[x].split(",")[0];
+                                                stringNode.execlName = values[x].split(",")[1];
+                                                stringNodeMap.put(stringNode.xmlFiileName, stringNode);
+                                                System.out.println(values[x]);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
                         }
                     }
                 }

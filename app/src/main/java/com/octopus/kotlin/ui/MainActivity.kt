@@ -7,7 +7,6 @@ import android.support.v7.widget.RecyclerView
 import android.util.Log
 import android.view.View
 import android.widget.ProgressBar
-import com.octopus.camerax.CameraXTestActivity
 import com.octopus.kotlin.adapter.ArticleAdapter
 import com.octopus.kotlin.producer.ArticleProducer
 import com.octopus.test.R
@@ -28,7 +27,6 @@ class MainActivity :AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.kotolin_test_layout)
         findViewById<View>(R.id.test).setOnClickListener {
-            CameraXTestActivity.start(this)
         }
 
        /*

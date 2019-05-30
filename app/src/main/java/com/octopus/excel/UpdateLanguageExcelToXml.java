@@ -34,9 +34,9 @@ public class UpdateLanguageExcelToXml extends Constent{
     public final static  String path = "/Users/octopus/Project/OCTOPUS_CODE/Android/OctopusAndroid/app/src/main/res/language/%s/strings.xml";
 
     //读Excel表格。更新。
-    public void updateLanguageValue(String key,String value,String fileKey) throws IOException {
+    public void updateLanguageValue(StringNode node) throws IOException {
         SAXReader sax = new SAXReader() ;
-        String filePath = String.format(path, fileKey);
+        String filePath = String.format(path, node.xmlFiileName);
         Document document= null;
         File file = createFile(filePath);
         try {
@@ -55,7 +55,7 @@ public class UpdateLanguageExcelToXml extends Constent{
             if(document != null){
                 try {
                     Document read = sax.read(file);
-                    updateDoc(read,filePath,key,value);
+                    updateDoc(read,filePath,node);
                 } catch (DocumentException e) {
                     e.printStackTrace();
                 } catch (Exception e) {
@@ -65,7 +65,7 @@ public class UpdateLanguageExcelToXml extends Constent{
         }
     }
 
-    private void updateDoc(Document document,String filePath,String key,String values) throws Exception {
+    private void updateDoc(Document document,String filePath,StringNode node) throws Exception {
         Element rootElement = document.getRootElement();
         List elements = rootElement.elements("string");
         boolean isHas = false ;
@@ -73,9 +73,10 @@ public class UpdateLanguageExcelToXml extends Constent{
             for(int i = 0 ;i< elements.size(); i++){
                 Element element = (Element) elements.get(i);
                 String name = element.attribute("name").getValue();
-                if(name.equals(key)) {
-                    System.out.println("key:"+key+"| value : ["+ element.getText()+"] 被替换为 ["+values +"]");
-                    element.setText(values);
+                if(name.equals(node.name)) {
+                    System.out.println("language="+node.execlName+":"+ node.xmlFiileName+"-->key:"+node.name+"| value : ["+ element.getStringValue()+"] 被替换为 ["+node.value+"]");
+                    System.out.println();
+                    element.setText(node.value);
                     isHas = true;
                     break;
                 }
@@ -83,8 +84,10 @@ public class UpdateLanguageExcelToXml extends Constent{
         }
         if(!isHas){
             Element elt = DocumentHelper.createElement("string");
-            elt.addAttribute("name",key);
-            elt.setText(values);
+            elt.addAttribute("name",node.name);
+            elt.setText(node.value);
+            System.out.println("language="+node.execlName + ":"+ node.xmlFiileName+" -->key:"+node.name+"| value : add ["+node.value+"]");
+            System.out.println();
             rootElement.add(elt);
         }
         write(filePath,document);
@@ -209,14 +212,14 @@ public class UpdateLanguageExcelToXml extends Constent{
 
         ExportLanguageXmlToExcel exportLanguageXmlToExcel = new ExportLanguageXmlToExcel();
 
-        Map<Integer, StringNode> stringNodeMap = exportLanguageXmlToExcel.readExcel("", "lanuage", "user");
+        Map<String, StringNode> stringNodeMap = exportLanguageXmlToExcel.readExcel("/Users/octopus/Project/OCTOPUS_CODE/Android/OctopusAndroid/language-new2.xls", "工作表1", "bag_dialog_call_ticket_help_message");
 
-        Set<Integer> integers = stringNodeMap.keySet();
-        Iterator<Integer> iterator = integers.iterator();
+        Set<String> integers = stringNodeMap.keySet();
+        Iterator<String> iterator = integers.iterator();
         while(iterator.hasNext()){
-            Integer next = iterator.next();
+            String next = iterator.next();
             StringNode stringNode = stringNodeMap.get(next);
-            update.updateLanguageValue(stringNode.name,stringNode.value,values[next]);
+            update.updateLanguageValue(stringNode);
         }
     }
 

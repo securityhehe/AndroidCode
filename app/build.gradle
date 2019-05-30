@@ -52,6 +52,8 @@ dependencies {
     implementation files('./libs/commons-compress-1.18.jar')
     implementation files('./libs/sax-2.0.1.jar')
     implementation files('./libs/xercesimpl-2.12.0.jar')
+
+    compile group: 'xml-apis', name: 'xml-apis', version: '2.0.2'
 }
 
 kotlin {
