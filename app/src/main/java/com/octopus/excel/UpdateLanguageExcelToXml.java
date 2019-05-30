@@ -31,7 +31,7 @@ import javax.xml.transform.stream.StreamResult;
 
 public class UpdateLanguageExcelToXml extends Constent{
 
-    public final static  String path = "/Users/octopus/Project/OCTOPUS_CODE/Android/OctopusAndroid/app/src/main/res/language/%s/strings.xml";
+    public final static  String path = "/Users/octopus/Project/RC_CODE/androidVideoChat/app/src/main/res/%s/strings.xml";
 
     //读Excel表格。更新。
     public void updateLanguageValue(StringNode node) throws IOException {
