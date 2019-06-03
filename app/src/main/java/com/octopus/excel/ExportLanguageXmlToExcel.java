@@ -255,17 +255,19 @@ public class ExportLanguageXmlToExcel extends Constent{
                                 if(cellValue!=null) {
                                     String stringCellValue1 = cellValue.getStringCellValue();
                                     if (stringCellValue1 != null && !stringCellValue.isEmpty()) {
-                                        StringNode stringNode = new StringNode();
-                                        stringNode.name = key;
-                                        stringNode.value = stringCellValue1;
+
                                         //找到Contents常量中value的值。
                                         for(int x = 0 ; x< Constent.values.length; x++){
                                             boolean contains = values[x].contains(stringTitle);
                                             if(contains){
+                                                StringNode stringNode = new StringNode();
+                                                stringNode.name = key;
+                                                stringNode.value = stringCellValue1;
                                                 stringNode.xmlFiileName = values[x].split(",")[0];
                                                 stringNode.execlName = values[x].split(",")[1];
+                                               // System.out.println(values[x]);
+                                                System.out.println(stringNode.xmlFiileName);
                                                 stringNodeMap.put(stringNode.xmlFiileName, stringNode);
-                                                System.out.println(values[x]);
                                             }
                                         }
                                     }

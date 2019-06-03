@@ -12,6 +12,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -74,7 +75,7 @@ public class UpdateLanguageExcelToXml extends Constent{
                 Element element = (Element) elements.get(i);
                 String name = element.attribute("name").getValue();
                 if(name.equals(node.name)) {
-                    System.out.println("language="+node.execlName+":"+ node.xmlFiileName+"-->key:"+node.name+"| value : ["+ element.getStringValue()+"] 被替换为 ["+node.value+"]");
+                    System.out.println("language="+node.xmlFiileName+"-->key:"+node.name+"| value : ["+ element.getStringValue()+"] 被替换为 ["+node.value+"]");
                     System.out.println();
                     element.setText(node.value);
                     isHas = true;
@@ -86,7 +87,7 @@ public class UpdateLanguageExcelToXml extends Constent{
             Element elt = DocumentHelper.createElement("string");
             elt.addAttribute("name",node.name);
             elt.setText(node.value);
-            System.out.println("language="+node.execlName + ":"+ node.xmlFiileName+" -->key:"+node.name+"| value : add ["+node.value+"]");
+            System.out.println("language="+ node.xmlFiileName+" -->key:"+node.name+"| value : add ["+node.value+"]");
             System.out.println();
             rootElement.add(elt);
         }
@@ -208,18 +209,24 @@ public class UpdateLanguageExcelToXml extends Constent{
      */
     public static void main(String[] args) throws Exception {
 
-        UpdateLanguageExcelToXml update =  new UpdateLanguageExcelToXml();
+        List<String>  array = new ArrayList<String>(){};
+        array.add("bag_card_detail_call_text_1");
+        array.add("bag_call_ticket_desc");
+        array.add("bag_dialog_call_ticket_help_message");
+        for(int i = 0 ; i< array.size();i++) {
 
-        ExportLanguageXmlToExcel exportLanguageXmlToExcel = new ExportLanguageXmlToExcel();
+            UpdateLanguageExcelToXml update = new UpdateLanguageExcelToXml();
+            ExportLanguageXmlToExcel exportLanguageXmlToExcel = new ExportLanguageXmlToExcel();
+            Map<String, StringNode> stringNodeMap = exportLanguageXmlToExcel.readExcel("/Users/octopus/Project/OCTOPUS_CODE/Android/OctopusAndroid/language.xls", "工作表1", array.get(i));
 
-        Map<String, StringNode> stringNodeMap = exportLanguageXmlToExcel.readExcel("/Users/octopus/Project/OCTOPUS_CODE/Android/OctopusAndroid/language-new2.xls", "工作表1", "bag_dialog_call_ticket_help_message");
-
-        Set<String> integers = stringNodeMap.keySet();
-        Iterator<String> iterator = integers.iterator();
-        while(iterator.hasNext()){
-            String next = iterator.next();
-            StringNode stringNode = stringNodeMap.get(next);
-            update.updateLanguageValue(stringNode);
+            Set<String> key = stringNodeMap.keySet();
+            Iterator<String> iterator = key.iterator();
+            while (iterator.hasNext()) {
+                String next = iterator.next();
+                StringNode stringNode = stringNodeMap.get(next);
+               // System.out.println(stringNode.toString());
+                update.updateLanguageValue(stringNode);
+            }
         }
     }
 
