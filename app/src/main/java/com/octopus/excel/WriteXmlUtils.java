@@ -13,10 +13,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
@@ -30,10 +27,12 @@ import javax.xml.transform.stream.StreamResult;
  *
  */
 
-public class UpdateLanguageExcelToXml extends Constent{
+public class WriteXmlUtils {
 
-    public final static  String path = "/Users/octopus/Project/RC_CODE/androidVideoChat/app/src/main/res/%s/strings.xml";
-
+    public static  String path;
+    public WriteXmlUtils(String path){
+        this.path = path;
+    }
     //读Excel表格。更新。
     public void updateLanguageValue(StringNode node) throws IOException {
         SAXReader sax = new SAXReader() ;
@@ -173,7 +172,7 @@ public class UpdateLanguageExcelToXml extends Constent{
          File file = new File(fileName);
         if(!file.exists()){
             String path = file.getPath();
-            int i = path.lastIndexOf("/");
+            int i = path.lastIndexOf("\\");
             if(i > 0 ){
                 System.out.println("path = "+ path);
                 String parentPath = path.substring(0, i);
@@ -199,35 +198,4 @@ public class UpdateLanguageExcelToXml extends Constent{
         outStream.close();
         System.out.println("文档结束！");
     }
-
-
-    /**
-     *
-     * 更新多语言工具。读取需要更新的可以。
-     * @param args 参数。
-     *
-     */
-    public static void main(String[] args) throws Exception {
-
-        List<String>  array = new ArrayList<String>(){};
-        array.add("bag_card_detail_call_text_1");
-        array.add("bag_call_ticket_desc");
-        array.add("bag_dialog_call_ticket_help_message");
-        for(int i = 0 ; i< array.size();i++) {
-
-            UpdateLanguageExcelToXml update = new UpdateLanguageExcelToXml();
-            ExportLanguageXmlToExcel exportLanguageXmlToExcel = new ExportLanguageXmlToExcel();
-            Map<String, StringNode> stringNodeMap = exportLanguageXmlToExcel.readExcel("/Users/octopus/Project/OCTOPUS_CODE/Android/OctopusAndroid/language.xls", "工作表1", array.get(i));
-
-            Set<String> key = stringNodeMap.keySet();
-            Iterator<String> iterator = key.iterator();
-            while (iterator.hasNext()) {
-                String next = iterator.next();
-                StringNode stringNode = stringNodeMap.get(next);
-               // System.out.println(stringNode.toString());
-                update.updateLanguageValue(stringNode);
-            }
-        }
-    }
-
 }
