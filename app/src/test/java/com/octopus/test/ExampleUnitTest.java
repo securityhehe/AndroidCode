@@ -21,7 +21,9 @@ public class ExampleUnitTest {
 
     public static String excelPath = "C:\\project\\AndroidCode\\app\\language.xls";
     public static String tableName = "language";
-    public static final String languageFilePath = "C:\\Users\\shaohua\\Desktop\\project\\android-call-demo4\\skWeiChatBaidu\\src\\main\\res\\%s\\strings.xml";
+    //public static final String languageFilePath = "C:\\Users\\shaohua\\Desktop\\project\\android-call-demo4\\skWeiChatBaidu\\src\\main\\res\\%s\\strings.xml";
+  // public static final String languageFilePath =  "C:\\Users\\shaohua\\Desktop\\project\\android-call-demo4\\skWeiChatBaidu\\src\\main\\res\\%s\\strings.xml";
+   public static final String languageFilePath = "C:\\Users\\shaohua\\Desktop\\project\\android-call-demo4\\easyPhotos\\src\\main\\res\\%s\\strings.xml";
     public static final String writeXmlPath = "C:\\project\\AndroidCode\\aa\\%s\\strings.xml";
     public static final String values[] = new String[]{
              "values,默认"
@@ -29,10 +31,14 @@ public class ExampleUnitTest {
             , "values-in,印尼"
             , "values-en,英文"
             , "values-vi,越南"
+            , "values-pt-rPT,葡萄牙"
+            , "values-es-rES,西班牙"
     };
 
 
+
     /**
+     *
      * 将Android项目的多语言导出到excel
      */
     @Test
@@ -55,7 +61,7 @@ public class ExampleUnitTest {
 
     @Test
     public void writeString(){
-        WriteXmlUtils update = new WriteXmlUtils(writeXmlPath);
+        WriteXmlUtils update = new WriteXmlUtils(languageFilePath);
         ExcelXmlUtils utils = new ExcelXmlUtils(excelPath, tableName,languageFilePath,values);
         List<String> array = utils.readKeys();
         for(int i = 0 ; i< array.size();i++) {

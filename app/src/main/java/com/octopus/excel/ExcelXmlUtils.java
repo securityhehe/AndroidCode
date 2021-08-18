@@ -244,6 +244,9 @@ public class ExcelXmlUtils {
 
             for (int i = 0; i < lastRowNum; i++) {
                 Row row = sheet1.getRow(i);
+                if(row==null ){
+                    continue;
+                }
                 Cell cell = row.getCell(0);
 
                 if (cell != null) {
@@ -315,6 +318,9 @@ public class ExcelXmlUtils {
         boolean findkey = false;
         for (int i = 0; i < rowNumber; i++) {
             Row row = sheet.getRow(i);
+            if(row==null){
+                continue;
+            }
             int first = row.getFirstCellNum();
             int last = row.getLastCellNum();
             int keyIndex = 0;
@@ -332,8 +338,11 @@ public class ExcelXmlUtils {
                 }
             } else {
                 Cell cell = row.getCell(keyIndex);
-                String key = cell.getStringCellValue();
-                keys.add(key);
+                if(cell!=null){
+                    String key = cell.getStringCellValue();
+                    keys.add(key);
+                }
+
             }
         }
         return keys;
